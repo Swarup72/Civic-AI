@@ -1,0 +1,32 @@
+{
+  "modelVersion": "textlab-tfidf-logreg-20260915141210",
+  "trainedAt": "2026-09-15T14:12:10.506493+00:00",
+  "trainRows": 986,
+  "valRows": 211,
+  "heads": [
+    "category",
+    "severity",
+    "department"
+  ],
+  "vectorizer": {
+    "type": "TfidfVectorizer",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_features": 8000,
+    "vocabularySize": 1188
+  },
+  "classifier": {
+    "type": "LogisticRegression",
+    "max_iter": 1000,
+    "C": 1.0
+  },
+  "validationAccuracy": {
+    "category": 1.0,
+    "severity": 0.8057,
+    "department": 1.0
+  },
+  "datasetNote": "Trained on a synthetic, template-generated dataset (training/generate_synthetic_dataset.py) \u2014 category/department are template-driven and separate near-perfectly by design; severity has deliberate label noise and shared cross-category vocabulary, so its accuracy is a more honest, non-trivial number. See training/evaluate.py's report and README.md."
+}

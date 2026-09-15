@@ -1,0 +1,19 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+python-dotenv
+Pillow
+opencv-python-headless
+numpy
+pytest
+httpx
+
+# Optional — only needed if you place a REAL pretrained model under
+# models/pretrained/ that requires a deep-learning framework to load (e.g. a
+# torch .pt checkpoint or a transformers model). Not required for the
+# classical-CV scene/quality services, and NOT installed by default to keep
+# this prototype lightweight. See README.md's "What remains before
+# production integration" before uncommenting.
+# torch
+# transformers

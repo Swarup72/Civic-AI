@@ -1,0 +1,601 @@
+id,category,severity,department,area,createdAt,resolvedAt,status,supportCount,affectedUsers,locationSensitivity
+C0139,Parks and Public Spaces,Low,Parks Department,Wagholi,2026-03-19T23:16:45.055692+00:00,,IN_PROGRESS,19,32,Medium
+C0436,Traffic and Parking,Medium,Traffic Department,MG Road,2026-03-20T06:11:28.194861+00:00,2026-03-20T10:59:28.194861+00:00,RESOLVED,6,23,Low
+C0596,Water Supply,Medium,Water Department,Aundh,2026-03-20T15:52:29.934847+00:00,2026-03-23T03:30:26.929583+00:00,CONFIRMED,14,72,High
+C0182,Waste Management,High,Municipal Sanitation,Aundh,2026-03-20T17:51:57.916431+00:00,2026-03-20T22:39:57.916431+00:00,RESOLVED,10,4,Medium
+C0344,Other,High,General Municipal Helpdesk,Model Colony,2026-03-21T01:21:20.032919+00:00,,ESCALATED,11,14,Medium
+C0593,Street Lighting,Low,Electrical Department,Hinjewadi,2026-03-21T07:04:33.535025+00:00,2026-03-23T10:38:52.946760+00:00,RESOLVED,7,1,Low
+C0492,Waste Management,Medium,Municipal Sanitation,Viman Nagar,2026-03-21T10:11:52.461282+00:00,2026-03-26T03:28:29.512730+00:00,RESOLVED,12,72,Medium
+C0070,Public Safety,High,Public Safety/Police Liaison,Model Colony,2026-03-21T13:19:24.474122+00:00,2026-03-23T07:46:37.040743+00:00,CONFIRMED,2,47,Low
+C0479,Other,Medium,General Municipal Helpdesk,Viman Nagar,2026-03-21T18:52:32.670163+00:00,2026-03-24T06:55:36.872815+00:00,RESOLVED,0,32,High
+C0431,Road Infrastructure,High,Public Works Department,Kothrud,2026-03-21T19:01:30.225724+00:00,,SUBMITTED,4,51,Low
+C0272,Public Safety,High,Public Safety/Police Liaison,Viman Nagar,2026-03-22T00:07:58.504271+00:00,2026-03-27T19:34:30.592246+00:00,CONFIRMED,6,1,Medium
+C0131,Water Supply,Medium,Water Department,Wagholi,2026-03-22T02:15:31.632961+00:00,,SUBMITTED,9,38,Low
+C0544,Waste Management,Critical,Municipal Sanitation,Viman Nagar,2026-03-22T11:00:19.234191+00:00,2026-03-25T12:35:16.401976+00:00,RESOLVED,15,30,Medium
+C0454,Other,Medium,General Municipal Helpdesk,Baner,2026-03-22T11:34:09.246157+00:00,2026-03-25T07:43:50.977070+00:00,RESOLVED,0,4,Medium
+C0592,Street Lighting,Low,Electrical Department,Hinjewadi,2026-03-22T19:09:08.999233+00:00,2026-03-26T08:09:40.368363+00:00,RESOLVED,6,1,Low
+C0399,Waste Management,High,Municipal Sanitation,Wagholi,2026-03-23T11:22:19.456869+00:00,2026-03-25T04:22:47.651669+00:00,CONFIRMED,7,58,Low
+C0247,Road Infrastructure,High,Public Works Department,Wagholi,2026-03-23T14:01:09.478774+00:00,2026-03-27T22:31:29.813915+00:00,RESOLVED,9,50,Medium
+C0235,Drainage and Sewage,Medium,Sewerage/Drainage Department,Baner,2026-03-24T00:51:19.945723+00:00,2026-03-28T00:57:06.443338+00:00,RESOLVED,11,21,Low
+C0460,Waste Management,High,Municipal Sanitation,Wagholi,2026-03-24T04:28:52.768222+00:00,,ESCALATED,15,1,Low
+C0509,Waste Management,Medium,Municipal Sanitation,Wagholi,2026-03-24T08:58:49.610140+00:00,2026-03-28T14:32:01.376247+00:00,RESOLVED,0,31,High
+C0343,Public Safety,Medium,Public Safety/Police Liaison,Viman Nagar,2026-03-24T14:22:48.803134+00:00,2026-03-27T12:58:15.892908+00:00,RESOLVED,7,60,Low
+C0160,Water Supply,High,Water Department,Model Colony,2026-03-24T22:18:57.623135+00:00,2026-03-29T05:10:11.948905+00:00,RESOLVED,0,77,High
+C0268,Other,Low,General Municipal Helpdesk,Hinjewadi,2026-03-25T04:41:41.678269+00:00,2026-03-28T21:55:22.616369+00:00,RESOLVED,9,38,High
+C0153,Public Safety,High,Public Safety/Police Liaison,Model Colony,2026-03-25T05:15:40.838838+00:00,,IN_PROGRESS,2,42,Low
+C0532,Traffic and Parking,Low,Traffic Department,Aundh,2026-03-25T05:50:05.942178+00:00,2026-03-28T22:35:49.453639+00:00,CONFIRMED,10,1,Low
+C0048,Waste Management,Medium,Municipal Sanitation,Hinjewadi,2026-03-25T07:11:22.051382+00:00,2026-03-30T08:52:11.124962+00:00,RESOLVED,9,71,Medium
+C0264,Road Infrastructure,Low,Public Works Department,Hinjewadi,2026-03-26T08:21:40.101963+00:00,2026-03-31T09:07:59.721410+00:00,CONFIRMED,9,32,Medium
+C0567,Street Lighting,Low,Electrical Department,Wagholi,2026-03-26T08:33:49.625442+00:00,,ACKNOWLEDGED,12,7,Low
+C0118,Street Lighting,High,Electrical Department,Baner,2026-03-26T13:31:09.954322+00:00,2026-03-28T20:00:06.216313+00:00,RESOLVED,14,22,Low
+C0242,Public Safety,Medium,Public Safety/Police Liaison,Hinjewadi,2026-03-26T17:16:00.131872+00:00,2026-04-01T01:11:24.215515+00:00,CONFIRMED,7,43,Low
+C0063,Drainage and Sewage,Low,Sewerage/Drainage Department,Viman Nagar,2026-03-26T19:35:14.625246+00:00,2026-03-27T00:23:14.625246+00:00,RESOLVED,11,13,Low
+C0198,Other,High,General Municipal Helpdesk,Model Colony,2026-03-27T02:33:00.995143+00:00,,ESCALATED,8,20,Low
+C0333,Parks and Public Spaces,Critical,Parks Department,Aundh,2026-03-27T05:10:19.832590+00:00,2026-03-30T08:02:07.535868+00:00,RESOLVED,0,37,Medium
+C0475,Other,High,General Municipal Helpdesk,Baner,2026-03-27T10:12:50.980203+00:00,2026-04-01T15:51:20.128040+00:00,CONFIRMED,14,17,Low
+C0580,Water Supply,High,Water Department,Wagholi,2026-03-27T12:00:10.016602+00:00,2026-04-01T19:37:49.885645+00:00,CONFIRMED,2,25,Low
+C0297,Electricity,Low,Electrical Utility,Viman Nagar,2026-03-27T16:30:03.099376+00:00,2026-04-01T04:30:12.758071+00:00,RESOLVED,6,23,Medium
+C0421,Electricity,Medium,Electrical Utility,Wagholi,2026-03-27T21:17:34.261329+00:00,2026-03-30T17:14:34.644041+00:00,RESOLVED,9,14,High
+C0518,Other,Medium,General Municipal Helpdesk,Aundh,2026-03-27T22:58:31.941644+00:00,2026-04-01T00:31:32.647836+00:00,RESOLVED,0,44,Medium
+C0269,Drainage and Sewage,High,Sewerage/Drainage Department,Model Colony,2026-03-28T06:29:36.418987+00:00,2026-03-31T19:14:45.690769+00:00,RESOLVED,17,20,Low
+C0222,Public Safety,Low,Public Safety/Police Liaison,Model Colony,2026-03-28T11:00:49.229197+00:00,2026-03-31T17:50:29.164635+00:00,RESOLVED,10,70,Medium
+C0397,Drainage and Sewage,Low,Sewerage/Drainage Department,MG Road,2026-03-28T23:00:13.484628+00:00,2026-03-29T03:48:13.484628+00:00,RESOLVED,11,30,Low
+C0245,Waste Management,Low,Municipal Sanitation,MG Road,2026-03-29T02:59:46.563888+00:00,,ACKNOWLEDGED,3,49,Medium
+C0407,Waste Management,High,Municipal Sanitation,Baner,2026-03-29T03:31:21.907976+00:00,2026-04-04T02:03:25.851238+00:00,CONFIRMED,13,26,Low
+C0586,Parks and Public Spaces,High,Parks Department,Model Colony,2026-03-30T04:35:37.834160+00:00,,ACKNOWLEDGED,10,49,Low
+C0483,Street Lighting,High,Electrical Department,Wagholi,2026-03-30T05:43:58.289812+00:00,,IN_PROGRESS,8,10,Low
+C0298,Parks and Public Spaces,Medium,Parks Department,Kothrud,2026-03-30T12:36:08.988942+00:00,2026-04-06T13:24:50.634889+00:00,RESOLVED,2,41,Medium
+C0176,Traffic and Parking,High,Traffic Department,Baner,2026-03-30T15:25:43.853402+00:00,,IN_PROGRESS,5,61,High
+C0251,Water Supply,Medium,Water Department,Wagholi,2026-03-31T03:41:55.386155+00:00,,IN_PROGRESS,19,41,Low
+C0535,Other,High,General Municipal Helpdesk,Baner,2026-03-31T07:33:47.263961+00:00,2026-04-02T17:19:17.937969+00:00,RESOLVED,9,90,High
+C0484,Electricity,Low,Electrical Utility,MG Road,2026-04-01T12:47:02.138497+00:00,2026-04-05T22:55:26.844515+00:00,RESOLVED,12,3,Medium
+C0360,Electricity,Medium,Electrical Utility,Model Colony,2026-04-02T02:10:19.368801+00:00,2026-04-07T22:45:41.244874+00:00,RESOLVED,0,8,Low
+C0405,Street Lighting,Medium,Electrical Department,Model Colony,2026-04-02T08:18:20.370874+00:00,2026-04-09T04:23:34.473650+00:00,RESOLVED,5,58,Low
+C0046,Drainage and Sewage,High,Sewerage/Drainage Department,MG Road,2026-04-02T12:13:48.885799+00:00,2026-04-06T05:24:36.128390+00:00,RESOLVED,3,81,Low
+C0579,Drainage and Sewage,High,Sewerage/Drainage Department,Aundh,2026-04-03T19:02:54.930367+00:00,2026-04-05T08:08:17.614405+00:00,RESOLVED,17,60,Low
+C0534,Electricity,Medium,Electrical Utility,Aundh,2026-04-03T21:08:33.208168+00:00,2026-04-04T04:30:09.152563+00:00,RESOLVED,8,64,Low
+C0378,Traffic and Parking,High,Traffic Department,Wagholi,2026-04-04T14:43:45.381490+00:00,,ESCALATED,6,30,Medium
+C0033,Parks and Public Spaces,Medium,Parks Department,Hinjewadi,2026-04-04T19:31:59.545262+00:00,2026-04-08T00:05:36.078402+00:00,RESOLVED,0,4,Low
+C0281,Parks and Public Spaces,Low,Parks Department,Aundh,2026-04-05T11:57:02.919634+00:00,2026-04-06T16:27:41.658758+00:00,RESOLVED,1,23,Low
+C0512,Water Supply,High,Water Department,Viman Nagar,2026-04-05T15:14:41.277372+00:00,2026-04-05T20:02:41.277372+00:00,RESOLVED,6,11,Low
+C0387,Drainage and Sewage,Critical,Sewerage/Drainage Department,Model Colony,2026-04-05T15:36:56.764080+00:00,2026-04-10T17:04:49.871888+00:00,RESOLVED,1,1,Low
+C0109,Electricity,Medium,Electrical Utility,Hinjewadi,2026-04-05T15:54:44.475641+00:00,2026-04-11T02:32:35.331038+00:00,CONFIRMED,7,44,Medium
+C0302,Water Supply,Medium,Water Department,Hinjewadi,2026-04-06T09:13:32.541500+00:00,2026-04-13T11:33:07.120514+00:00,CONFIRMED,10,1,Low
+C0332,Drainage and Sewage,Critical,Sewerage/Drainage Department,Kothrud,2026-04-06T12:02:00.574927+00:00,2026-04-11T08:12:44.639444+00:00,RESOLVED,5,64,Medium
+C0110,Parks and Public Spaces,High,Parks Department,Hinjewadi,2026-04-06T13:59:18.198523+00:00,2026-04-11T17:59:38.587584+00:00,RESOLVED,9,1,Low
+C0034,Waste Management,Medium,Municipal Sanitation,Model Colony,2026-04-06T14:39:13.729437+00:00,2026-04-07T12:30:55.782529+00:00,RESOLVED,17,3,Low
+C0365,Traffic and Parking,High,Traffic Department,Viman Nagar,2026-04-07T04:53:19.333299+00:00,2026-04-12T23:38:46.305667+00:00,CONFIRMED,8,28,Medium
+C0383,Street Lighting,Medium,Electrical Department,Hinjewadi,2026-04-07T09:57:25.846655+00:00,2026-04-11T20:00:38.250521+00:00,RESOLVED,5,32,Low
+C0428,Traffic and Parking,Medium,Traffic Department,Wagholi,2026-04-08T17:15:15.449296+00:00,,ACKNOWLEDGED,12,41,Medium
+C0520,Water Supply,Low,Water Department,Viman Nagar,2026-04-08T17:24:54.307586+00:00,2026-04-10T12:05:18.206025+00:00,RESOLVED,9,1,Low
+C0178,Parks and Public Spaces,Low,Parks Department,Viman Nagar,2026-04-08T20:01:01.369720+00:00,2026-04-10T06:01:30.359246+00:00,CONFIRMED,10,53,Low
+C0293,Other,High,General Municipal Helpdesk,Wagholi,2026-04-08T22:22:25.424707+00:00,2026-04-10T15:36:53.782277+00:00,RESOLVED,12,1,Medium
+C0205,Water Supply,Medium,Water Department,Viman Nagar,2026-04-09T00:06:32.785795+00:00,2026-04-15T13:17:19.927594+00:00,CONFIRMED,7,63,Low
+C0120,Other,Critical,General Municipal Helpdesk,MG Road,2026-04-09T09:48:01.608816+00:00,,ACKNOWLEDGED,2,22,Medium
+C0598,Electricity,Low,Electrical Utility,Model Colony,2026-04-09T13:45:49.874942+00:00,2026-04-12T21:33:06.993486+00:00,RESOLVED,4,37,Low
+C0594,Water Supply,Low,Water Department,Viman Nagar,2026-04-09T15:27:23.204508+00:00,2026-04-14T04:25:00.314097+00:00,RESOLVED,3,69,Medium
+C0177,Public Safety,Medium,Public Safety/Police Liaison,Kothrud,2026-04-09T22:39:21.692736+00:00,2026-04-15T00:02:38.651081+00:00,RESOLVED,5,18,Medium
+C0071,Waste Management,Medium,Municipal Sanitation,Viman Nagar,2026-04-11T01:48:49.585481+00:00,2026-04-11T06:36:49.585481+00:00,CONFIRMED,10,60,High
+C0088,Parks and Public Spaces,High,Parks Department,Aundh,2026-04-11T03:19:29.304943+00:00,2026-04-15T15:02:12.099457+00:00,CONFIRMED,5,32,Medium
+C0127,Water Supply,Low,Water Department,Hinjewadi,2026-04-11T11:44:33.307811+00:00,2026-04-13T05:25:41.110917+00:00,RESOLVED,2,47,Low
+C0229,Road Infrastructure,Low,Public Works Department,Viman Nagar,2026-04-11T15:02:39.484766+00:00,2026-04-21T03:32:21.783638+00:00,RESOLVED,0,101,Medium
+C0112,Public Safety,High,Public Safety/Police Liaison,Baner,2026-04-11T17:50:26.681354+00:00,2026-04-11T22:38:26.681354+00:00,RESOLVED,5,42,Low
+C0554,Street Lighting,Medium,Electrical Department,Wagholi,2026-04-11T19:41:00.660218+00:00,2026-04-15T13:44:44.369008+00:00,CONFIRMED,9,1,High
+C0430,Traffic and Parking,Medium,Traffic Department,Baner,2026-04-11T23:39:58.096936+00:00,2026-04-12T22:11:04.705245+00:00,RESOLVED,5,82,Low
+C0273,Drainage and Sewage,Low,Sewerage/Drainage Department,Model Colony,2026-04-12T01:14:06.726164+00:00,2026-04-17T00:49:15.648271+00:00,RESOLVED,16,44,Low
+C0377,Other,High,General Municipal Helpdesk,Aundh,2026-04-12T10:31:57.715842+00:00,2026-04-15T22:15:18.269825+00:00,RESOLVED,9,29,Medium
+C0193,Parks and Public Spaces,Low,Parks Department,Baner,2026-04-12T16:27:40.011228+00:00,2026-04-16T19:49:17.840208+00:00,CONFIRMED,5,16,Low
+C0183,Drainage and Sewage,Low,Sewerage/Drainage Department,Wagholi,2026-04-12T19:24:37.290010+00:00,2026-04-13T00:12:37.290010+00:00,RESOLVED,4,12,Medium
+C0185,Street Lighting,Medium,Electrical Department,Viman Nagar,2026-04-12T22:25:40.028792+00:00,2026-04-15T18:32:49.463878+00:00,RESOLVED,1,22,Medium
+C0021,Other,Medium,General Municipal Helpdesk,Kothrud,2026-04-13T04:22:53.777456+00:00,2026-04-16T09:22:00.443707+00:00,RESOLVED,6,1,High
+C0501,Drainage and Sewage,High,Sewerage/Drainage Department,Model Colony,2026-04-14T16:18:36.480237+00:00,2026-04-18T01:28:11.692238+00:00,RESOLVED,22,7,Low
+C0184,Electricity,High,Electrical Utility,Viman Nagar,2026-04-14T16:46:27.105001+00:00,2026-04-18T19:21:59.732128+00:00,RESOLVED,9,39,Low
+C0433,Other,Critical,General Municipal Helpdesk,Viman Nagar,2026-04-14T18:20:31.528597+00:00,2026-04-16T18:40:15.046748+00:00,RESOLVED,12,87,Low
+C0516,Electricity,Critical,Electrical Utility,MG Road,2026-04-14T19:54:54.755267+00:00,2026-04-17T23:08:17.629051+00:00,RESOLVED,15,25,Low
+C0549,Public Safety,High,Public Safety/Police Liaison,Viman Nagar,2026-04-15T01:36:33.854282+00:00,,ESCALATED,19,87,Medium
+C0380,Other,Medium,General Municipal Helpdesk,MG Road,2026-04-15T02:49:51.135619+00:00,,ESCALATED,6,1,High
+C0463,Public Safety,High,Public Safety/Police Liaison,Hinjewadi,2026-04-15T03:50:41.210428+00:00,2026-04-17T07:07:00.314666+00:00,CONFIRMED,0,1,Medium
+C0016,Other,Low,General Municipal Helpdesk,Viman Nagar,2026-04-15T04:12:57.942831+00:00,,ACKNOWLEDGED,7,23,Low
+C0395,Drainage and Sewage,Low,Sewerage/Drainage Department,MG Road,2026-04-15T11:38:19.839109+00:00,2026-04-20T20:25:28.800792+00:00,RESOLVED,10,1,High
+C0373,Public Safety,Critical,Public Safety/Police Liaison,Viman Nagar,2026-04-15T20:42:52.126631+00:00,,SUBMITTED,3,45,Medium
+C0393,Water Supply,Medium,Water Department,Wagholi,2026-04-16T00:38:35.697707+00:00,2026-04-21T01:37:29.052243+00:00,RESOLVED,11,17,Low
+C0458,Drainage and Sewage,Critical,Sewerage/Drainage Department,MG Road,2026-04-16T11:32:27.715082+00:00,2026-04-25T16:41:14.385688+00:00,RESOLVED,7,17,Low
+C0584,Traffic and Parking,Medium,Traffic Department,Baner,2026-04-16T14:15:28.013750+00:00,2026-04-17T12:23:28.686815+00:00,RESOLVED,3,62,Low
+C0590,Drainage and Sewage,High,Sewerage/Drainage Department,MG Road,2026-04-16T14:55:33.762205+00:00,2026-04-19T15:51:42.170755+00:00,RESOLVED,14,6,Low
+C0051,Water Supply,Medium,Water Department,Baner,2026-04-16T15:22:04.655225+00:00,2026-04-20T09:33:44.627560+00:00,RESOLVED,9,51,Medium
+C0351,Public Safety,Medium,Public Safety/Police Liaison,Viman Nagar,2026-04-16T22:16:02.979145+00:00,2026-04-21T08:46:01.470041+00:00,CONFIRMED,1,2,Low
+C0462,Waste Management,Critical,Municipal Sanitation,Aundh,2026-04-17T01:22:50.651865+00:00,2026-04-22T21:27:28.910246+00:00,RESOLVED,14,34,Medium
+C0570,Water Supply,High,Water Department,Wagholi,2026-04-17T19:42:03.681093+00:00,2026-04-20T13:52:34.805133+00:00,RESOLVED,3,61,Low
+C0589,Traffic and Parking,High,Traffic Department,Model Colony,2026-04-17T20:00:40.166187+00:00,2026-04-22T20:22:50.919940+00:00,CONFIRMED,5,33,High
+C0588,Traffic and Parking,High,Traffic Department,Kothrud,2026-04-19T01:27:44.252702+00:00,2026-04-19T06:15:44.252702+00:00,CONFIRMED,8,62,Medium
+C0385,Electricity,High,Electrical Utility,Aundh,2026-04-19T01:59:41.244000+00:00,2026-04-20T16:32:58.384638+00:00,RESOLVED,9,5,Low
+C0080,Public Safety,Critical,Public Safety/Police Liaison,Kothrud,2026-04-19T21:15:38.058327+00:00,,ESCALATED,0,76,Medium
+C0324,Public Safety,High,Public Safety/Police Liaison,Viman Nagar,2026-04-20T06:07:40.188183+00:00,2026-04-21T01:35:37.986984+00:00,RESOLVED,11,35,Medium
+C0015,Other,Low,General Municipal Helpdesk,Wagholi,2026-04-20T08:07:20.851378+00:00,2026-04-28T05:34:20.052572+00:00,CONFIRMED,11,44,Medium
+C0203,Parks and Public Spaces,Low,Parks Department,Aundh,2026-04-21T06:56:53.021662+00:00,2026-04-25T11:30:23.481948+00:00,RESOLVED,0,37,Medium
+C0258,Street Lighting,Low,Electrical Department,MG Road,2026-04-21T22:58:15.514883+00:00,,IN_PROGRESS,0,1,Medium
+C0341,Street Lighting,Low,Electrical Department,Wagholi,2026-04-23T12:30:12.168796+00:00,2026-04-26T18:29:47.868588+00:00,CONFIRMED,11,43,Medium
+C0357,Waste Management,Medium,Municipal Sanitation,Wagholi,2026-04-23T18:29:41.989338+00:00,2026-04-27T01:24:50.077494+00:00,CONFIRMED,4,83,Medium
+C0146,Traffic and Parking,High,Traffic Department,Model Colony,2026-04-23T20:27:55.414933+00:00,2026-04-27T07:47:58.237021+00:00,CONFIRMED,13,39,Low
+C0218,Parks and Public Spaces,Medium,Parks Department,Wagholi,2026-04-24T01:49:13.017744+00:00,,IN_PROGRESS,8,18,Medium
+C0171,Waste Management,Medium,Municipal Sanitation,Wagholi,2026-04-24T03:29:06.529311+00:00,2026-05-01T00:30:55.285834+00:00,RESOLVED,9,31,Medium
+C0275,Parks and Public Spaces,High,Parks Department,Viman Nagar,2026-04-24T12:03:46.520202+00:00,2026-04-25T08:01:47.027151+00:00,CONFIRMED,16,21,Medium
+C0041,Parks and Public Spaces,Low,Parks Department,Model Colony,2026-04-24T12:52:51.376624+00:00,2026-05-03T07:03:31.719468+00:00,RESOLVED,0,67,Low
+C0128,Waste Management,Critical,Municipal Sanitation,Viman Nagar,2026-04-24T20:58:47.744343+00:00,2026-04-29T08:24:47.211277+00:00,RESOLVED,3,50,Low
+C0062,Drainage and Sewage,High,Sewerage/Drainage Department,Baner,2026-04-25T00:59:15.953394+00:00,2026-04-30T03:12:08.051733+00:00,CONFIRMED,8,59,Low
+C0002,Waste Management,Medium,Municipal Sanitation,Wagholi,2026-04-25T20:55:24.482718+00:00,2026-04-29T14:48:59.679343+00:00,CONFIRMED,6,112,Medium
+C0311,Parks and Public Spaces,Medium,Parks Department,Aundh,2026-04-26T02:44:58.232352+00:00,,SUBMITTED,7,9,Low
+C0194,Road Infrastructure,Low,Public Works Department,Hinjewadi,2026-04-26T09:23:05.360656+00:00,2026-04-28T02:18:09.529583+00:00,RESOLVED,19,31,High
+C0196,Parks and Public Spaces,Medium,Parks Department,MG Road,2026-04-26T10:01:21.233502+00:00,2026-05-01T01:54:29.687331+00:00,CONFIRMED,14,48,Low
+C0047,Water Supply,Medium,Water Department,MG Road,2026-04-26T10:03:38.852875+00:00,2026-05-03T02:57:39.802484+00:00,RESOLVED,10,78,High
+C0240,Drainage and Sewage,Critical,Sewerage/Drainage Department,Hinjewadi,2026-04-26T11:25:52.314710+00:00,2026-04-26T16:13:52.314710+00:00,CONFIRMED,2,108,High
+C0294,Drainage and Sewage,Low,Sewerage/Drainage Department,Model Colony,2026-04-26T15:54:20.629573+00:00,2026-05-01T06:19:59.166970+00:00,RESOLVED,10,1,Low
+C0087,Road Infrastructure,High,Public Works Department,MG Road,2026-04-26T19:48:47.862926+00:00,,IN_PROGRESS,3,41,Low
+C0144,Street Lighting,High,Electrical Department,Viman Nagar,2026-04-27T14:41:28.931045+00:00,2026-05-04T14:35:45.899040+00:00,RESOLVED,0,39,Low
+C0217,Waste Management,High,Municipal Sanitation,Aundh,2026-04-28T11:05:13.081342+00:00,2026-05-02T14:45:47.398865+00:00,RESOLVED,11,1,Low
+C0126,Drainage and Sewage,Medium,Sewerage/Drainage Department,Model Colony,2026-04-29T11:05:50.876414+00:00,2026-05-02T19:00:15.229329+00:00,RESOLVED,8,1,Medium
+C0448,Electricity,Medium,Electrical Utility,MG Road,2026-04-29T14:56:52.385746+00:00,2026-04-29T19:44:52.385746+00:00,RESOLVED,5,22,Low
+C0390,Other,Medium,General Municipal Helpdesk,Aundh,2026-04-29T17:27:04.987531+00:00,2026-04-29T22:15:04.987531+00:00,RESOLVED,5,96,Low
+C0391,Public Safety,Medium,Public Safety/Police Liaison,MG Road,2026-04-29T18:56:54.219311+00:00,2026-05-03T20:40:26.983858+00:00,CONFIRMED,0,25,Low
+C0337,Other,Medium,General Municipal Helpdesk,Baner,2026-04-30T00:35:44.854140+00:00,2026-04-30T19:09:31.187172+00:00,RESOLVED,3,50,Medium
+C0329,Traffic and Parking,Medium,Traffic Department,Model Colony,2026-05-01T03:47:21.227734+00:00,2026-05-07T06:31:21.439225+00:00,CONFIRMED,7,32,Low
+C0204,Road Infrastructure,Medium,Public Works Department,Baner,2026-05-01T08:33:24.254549+00:00,2026-05-09T15:12:50.768548+00:00,RESOLVED,16,18,Medium
+C0175,Road Infrastructure,Medium,Public Works Department,Aundh,2026-05-01T12:56:26.365357+00:00,,SUBMITTED,16,11,Low
+C0375,Parks and Public Spaces,Medium,Parks Department,Baner,2026-05-01T13:59:08.282482+00:00,2026-05-04T06:01:55.203860+00:00,RESOLVED,1,37,Low
+C0591,Street Lighting,Low,Electrical Department,Hinjewadi,2026-05-01T23:51:36.095061+00:00,2026-05-08T02:43:42.252715+00:00,RESOLVED,1,51,Medium
+C0260,Other,High,General Municipal Helpdesk,Aundh,2026-05-02T03:33:00.516475+00:00,2026-05-07T15:16:31.851722+00:00,RESOLVED,2,51,Medium
+C0032,Parks and Public Spaces,Low,Parks Department,MG Road,2026-05-02T11:46:11.773976+00:00,,ESCALATED,12,59,Medium
+C0465,Water Supply,Critical,Water Department,Viman Nagar,2026-05-02T16:59:29.758347+00:00,2026-05-04T10:27:14.833123+00:00,RESOLVED,6,19,Low
+C0364,Other,Medium,General Municipal Helpdesk,Kothrud,2026-05-03T05:48:08.780886+00:00,2026-05-03T10:36:08.780886+00:00,RESOLVED,0,3,Low
+C0455,Waste Management,High,Municipal Sanitation,Hinjewadi,2026-05-03T18:32:05.001056+00:00,2026-05-06T02:40:57.472081+00:00,CONFIRMED,8,38,High
+C0543,Road Infrastructure,Medium,Public Works Department,Baner,2026-05-03T23:32:53.376806+00:00,,IN_PROGRESS,11,1,High
+C0289,Electricity,Low,Electrical Utility,Kothrud,2026-05-04T10:05:12.973689+00:00,2026-05-08T14:02:28.888570+00:00,RESOLVED,16,31,High
+C0552,Traffic and Parking,Critical,Traffic Department,Baner,2026-05-04T18:33:46.430068+00:00,,IN_PROGRESS,7,68,Low
+C0563,Public Safety,Critical,Public Safety/Police Liaison,Baner,2026-05-05T00:42:36.549022+00:00,2026-05-05T05:30:36.549022+00:00,RESOLVED,1,40,Low
+C0550,Drainage and Sewage,Low,Sewerage/Drainage Department,Kothrud,2026-05-05T02:50:24.244681+00:00,2026-05-08T20:10:42.697451+00:00,RESOLVED,10,45,Low
+C0315,Public Safety,Critical,Public Safety/Police Liaison,Model Colony,2026-05-05T07:41:00.112833+00:00,,IN_PROGRESS,11,30,Low
+C0557,Electricity,High,Electrical Utility,Viman Nagar,2026-05-05T11:53:10.211856+00:00,,ACKNOWLEDGED,7,105,Medium
+C0020,Water Supply,Medium,Water Department,Hinjewadi,2026-05-05T22:05:54.953014+00:00,2026-05-10T11:27:43.931127+00:00,CONFIRMED,12,12,Medium
+C0515,Public Safety,High,Public Safety/Police Liaison,Aundh,2026-05-06T01:59:31.783790+00:00,,SUBMITTED,0,32,High
+C0065,Drainage and Sewage,Low,Sewerage/Drainage Department,Wagholi,2026-05-06T10:28:25.035069+00:00,,IN_PROGRESS,3,28,Medium
+C0022,Parks and Public Spaces,Medium,Parks Department,Wagholi,2026-05-07T12:43:44.349401+00:00,,SUBMITTED,0,1,Low
+C0244,Road Infrastructure,Medium,Public Works Department,Viman Nagar,2026-05-08T00:36:51.958395+00:00,2026-05-08T22:52:27.863539+00:00,RESOLVED,6,1,Medium
+C0054,Waste Management,Medium,Municipal Sanitation,Hinjewadi,2026-05-08T12:48:11.328864+00:00,2026-05-08T17:36:11.328864+00:00,CONFIRMED,20,31,Low
+C0388,Other,High,General Municipal Helpdesk,Kothrud,2026-05-08T16:06:30.358032+00:00,2026-05-12T08:53:13.650117+00:00,CONFIRMED,9,1,High
+C0090,Waste Management,High,Municipal Sanitation,Wagholi,2026-05-09T15:12:16.914792+00:00,2026-05-12T16:49:38.095532+00:00,CONFIRMED,1,25,Low
+C0220,Parks and Public Spaces,Medium,Parks Department,Viman Nagar,2026-05-09T15:23:59.943207+00:00,,ESCALATED,12,23,Low
+C0319,Drainage and Sewage,Low,Sewerage/Drainage Department,Wagholi,2026-05-09T17:21:44.426589+00:00,2026-05-13T12:43:47.202831+00:00,RESOLVED,5,14,Medium
+C0303,Water Supply,Medium,Water Department,Baner,2026-05-09T21:52:10.977150+00:00,,ACKNOWLEDGED,15,14,Low
+C0101,Electricity,Medium,Electrical Utility,MG Road,2026-05-10T04:36:14.576695+00:00,2026-05-16T13:06:54.269628+00:00,RESOLVED,8,18,Low
+C0541,Traffic and Parking,High,Traffic Department,Hinjewadi,2026-05-10T18:07:54.755294+00:00,2026-05-16T16:57:33.684008+00:00,CONFIRMED,0,32,Low
+C0081,Waste Management,Critical,Municipal Sanitation,Baner,2026-05-10T19:00:37.028100+00:00,,ACKNOWLEDGED,5,29,Low
+C0008,Road Infrastructure,Medium,Public Works Department,Kothrud,2026-05-11T08:16:27.517770+00:00,2026-05-16T11:17:14.238011+00:00,RESOLVED,14,86,Low
+C0279,Electricity,Medium,Electrical Utility,Baner,2026-05-11T16:02:46.113526+00:00,,ACKNOWLEDGED,8,1,Medium
+C0571,Parks and Public Spaces,Low,Parks Department,Kothrud,2026-05-11T16:38:16.908176+00:00,,SUBMITTED,14,27,Medium
+C0145,Drainage and Sewage,Critical,Sewerage/Drainage Department,Aundh,2026-05-12T00:10:12.919915+00:00,2026-05-13T16:09:17.775990+00:00,CONFIRMED,15,1,High
+C0232,Water Supply,High,Water Department,Aundh,2026-05-12T05:34:27.849637+00:00,,SUBMITTED,0,1,High
+C0243,Drainage and Sewage,Medium,Sewerage/Drainage Department,Wagholi,2026-05-12T07:29:39.417522+00:00,,IN_PROGRESS,15,83,High
+C0470,Parks and Public Spaces,Medium,Parks Department,Model Colony,2026-05-12T07:53:50.549758+00:00,,SUBMITTED,0,9,Medium
+C0099,Drainage and Sewage,Low,Sewerage/Drainage Department,Kothrud,2026-05-12T15:05:56.401929+00:00,2026-05-13T15:40:28.769763+00:00,RESOLVED,10,42,Low
+C0066,Drainage and Sewage,High,Sewerage/Drainage Department,Model Colony,2026-05-12T18:43:56.168882+00:00,2026-05-20T04:03:19.006120+00:00,RESOLVED,21,26,High
+C0285,Road Infrastructure,High,Public Works Department,Model Colony,2026-05-13T10:31:34.164511+00:00,2026-05-16T17:29:03.881997+00:00,CONFIRMED,2,50,Low
+C0116,Road Infrastructure,Medium,Public Works Department,MG Road,2026-05-13T22:53:18.721933+00:00,,ESCALATED,5,77,Medium
+C0473,Water Supply,High,Water Department,Model Colony,2026-05-14T11:25:39.267785+00:00,,ACKNOWLEDGED,14,57,Medium
+C0517,Waste Management,Medium,Municipal Sanitation,Kothrud,2026-05-14T20:21:49.623449+00:00,2026-05-18T06:08:01.128167+00:00,RESOLVED,9,45,Medium
+C0227,Public Safety,Critical,Public Safety/Police Liaison,MG Road,2026-05-15T02:10:52.193258+00:00,2026-05-18T00:49:13.367893+00:00,RESOLVED,11,48,High
+C0478,Road Infrastructure,Low,Public Works Department,Viman Nagar,2026-05-15T04:27:32.387676+00:00,2026-05-18T15:27:01.405194+00:00,RESOLVED,6,17,Medium
+C0530,Street Lighting,Critical,Electrical Department,Kothrud,2026-05-15T08:37:24.975701+00:00,2026-05-19T07:10:45.319069+00:00,RESOLVED,0,90,Medium
+C0419,Other,Medium,General Municipal Helpdesk,Wagholi,2026-05-15T09:44:49.368330+00:00,2026-05-16T09:19:21.823750+00:00,RESOLVED,6,32,High
+C0158,Water Supply,High,Water Department,Hinjewadi,2026-05-15T16:43:09.237305+00:00,2026-05-23T05:51:52.027419+00:00,RESOLVED,19,97,Medium
+C0427,Public Safety,Critical,Public Safety/Police Liaison,Kothrud,2026-05-15T16:59:04.371944+00:00,2026-05-17T00:06:48.460013+00:00,RESOLVED,8,40,Low
+C0452,Road Infrastructure,Low,Public Works Department,Aundh,2026-05-15T23:47:45.893986+00:00,2026-05-23T19:59:25.905507+00:00,CONFIRMED,2,1,Medium
+C0513,Other,Medium,General Municipal Helpdesk,Hinjewadi,2026-05-16T06:57:46.719709+00:00,2026-05-26T03:56:29.874274+00:00,RESOLVED,3,39,High
+C0291,Road Infrastructure,High,Public Works Department,Wagholi,2026-05-16T10:47:59.549826+00:00,2026-05-20T10:48:38.866475+00:00,RESOLVED,8,57,Low
+C0440,Street Lighting,Medium,Electrical Department,Kothrud,2026-05-16T10:59:36.501395+00:00,2026-05-17T09:24:25.120666+00:00,RESOLVED,0,25,Medium
+C0322,Street Lighting,Medium,Electrical Department,Model Colony,2026-05-16T20:29:26.756855+00:00,,IN_PROGRESS,9,31,Medium
+C0207,Public Safety,High,Public Safety/Police Liaison,Kothrud,2026-05-17T02:24:48.921984+00:00,2026-05-22T14:08:28.785621+00:00,RESOLVED,7,1,Low
+C0423,Road Infrastructure,Medium,Public Works Department,Baner,2026-05-17T02:39:27.407126+00:00,,ACKNOWLEDGED,1,2,Low
+C0345,Water Supply,High,Water Department,Baner,2026-05-18T02:54:51.758049+00:00,,ESCALATED,2,49,Low
+C0353,Drainage and Sewage,Low,Sewerage/Drainage Department,Hinjewadi,2026-05-18T06:02:20.808699+00:00,2026-05-21T17:49:52.034223+00:00,RESOLVED,11,1,Low
+C0195,Water Supply,Low,Water Department,Wagholi,2026-05-18T08:56:48.437730+00:00,2026-05-18T18:29:26.927691+00:00,RESOLVED,9,54,Low
+C0348,Water Supply,Medium,Water Department,Baner,2026-05-18T12:09:49.676114+00:00,2026-05-23T08:27:29.161974+00:00,RESOLVED,8,1,Medium
+C0313,Water Supply,High,Water Department,Baner,2026-05-18T23:07:39.130156+00:00,,SUBMITTED,9,30,Low
+C0573,Drainage and Sewage,Low,Sewerage/Drainage Department,Hinjewadi,2026-05-19T07:33:13.831296+00:00,2026-05-22T05:03:38.054324+00:00,CONFIRMED,14,1,Medium
+C0507,Electricity,Medium,Electrical Utility,Wagholi,2026-05-19T16:01:32.581480+00:00,,IN_PROGRESS,8,45,Medium
+C0228,Waste Management,Critical,Municipal Sanitation,Model Colony,2026-05-20T07:42:45.440619+00:00,2026-05-23T22:43:41.473389+00:00,RESOLVED,21,96,Low
+C0197,Drainage and Sewage,Medium,Sewerage/Drainage Department,MG Road,2026-05-20T12:22:47.702928+00:00,,ESCALATED,16,65,Low
+C0546,Street Lighting,Low,Electrical Department,Kothrud,2026-05-20T15:13:27.095695+00:00,2026-05-27T00:01:29.685317+00:00,RESOLVED,16,8,High
+C0060,Electricity,High,Electrical Utility,Model Colony,2026-05-20T16:30:06.043181+00:00,,SUBMITTED,12,36,Low
+C0583,Street Lighting,High,Electrical Department,Viman Nagar,2026-05-20T20:27:07.098290+00:00,2026-05-24T21:32:32.908067+00:00,RESOLVED,12,56,Medium
+C0305,Parks and Public Spaces,Medium,Parks Department,Hinjewadi,2026-05-21T09:37:45.128923+00:00,2026-05-23T02:32:11.882672+00:00,RESOLVED,12,41,High
+C0138,Drainage and Sewage,Low,Sewerage/Drainage Department,Model Colony,2026-05-21T16:55:26.798930+00:00,2026-05-25T22:23:52.386810+00:00,CONFIRMED,4,38,Low
+C0482,Traffic and Parking,Critical,Traffic Department,Wagholi,2026-05-21T17:12:25.905532+00:00,2026-05-25T07:00:38.560729+00:00,RESOLVED,1,1,Medium
+C0191,Drainage and Sewage,Medium,Sewerage/Drainage Department,Wagholi,2026-05-21T21:42:54.754845+00:00,,ACKNOWLEDGED,5,38,Low
+C0057,Road Infrastructure,Low,Public Works Department,Viman Nagar,2026-05-21T23:10:55.720296+00:00,2026-05-23T10:59:06.200372+00:00,RESOLVED,6,1,Low
+C0083,Water Supply,High,Water Department,Kothrud,2026-05-21T23:18:30.888782+00:00,2026-05-26T15:29:08.948267+00:00,RESOLVED,3,44,Medium
+C0287,Public Safety,Critical,Public Safety/Police Liaison,Wagholi,2026-05-22T01:43:50.004267+00:00,2026-05-25T01:09:23.858576+00:00,RESOLVED,0,6,Low
+C0411,Public Safety,Medium,Public Safety/Police Liaison,Hinjewadi,2026-05-22T04:02:52.161907+00:00,2026-05-26T03:09:59.296168+00:00,CONFIRMED,3,15,Medium
+C0336,Public Safety,High,Public Safety/Police Liaison,MG Road,2026-05-22T14:28:17.185688+00:00,2026-05-25T13:39:23.267202+00:00,CONFIRMED,6,23,Medium
+C0307,Drainage and Sewage,Low,Sewerage/Drainage Department,Wagholi,2026-05-22T15:29:27.519906+00:00,,SUBMITTED,8,1,Low
+C0578,Electricity,Medium,Electrical Utility,Aundh,2026-05-23T05:07:48.330855+00:00,2026-05-28T08:06:03.105777+00:00,RESOLVED,17,89,Low
+C0379,Other,Medium,General Municipal Helpdesk,Hinjewadi,2026-05-23T16:25:15.549623+00:00,2026-05-27T19:00:24.343743+00:00,CONFIRMED,0,1,Medium
+C0566,Water Supply,Medium,Water Department,MG Road,2026-05-24T01:23:43.091301+00:00,,ACKNOWLEDGED,8,28,Medium
+C0447,Other,Medium,General Municipal Helpdesk,Wagholi,2026-05-24T02:44:01.976204+00:00,,IN_PROGRESS,6,99,Medium
+C0540,Parks and Public Spaces,Medium,Parks Department,Aundh,2026-05-24T10:18:22.874583+00:00,2026-05-28T22:00:54.585886+00:00,RESOLVED,4,35,Medium
+C0078,Water Supply,High,Water Department,Viman Nagar,2026-05-24T11:09:01.889482+00:00,2026-05-29T06:00:38.062875+00:00,RESOLVED,18,1,Low
+C0464,Traffic and Parking,Medium,Traffic Department,Viman Nagar,2026-05-24T16:04:21.519778+00:00,2026-05-28T22:41:15.453636+00:00,RESOLVED,14,25,Medium
+C0409,Road Infrastructure,Low,Public Works Department,Kothrud,2026-05-24T18:07:31.936055+00:00,2026-05-31T21:21:47.582768+00:00,CONFIRMED,5,34,Medium
+C0400,Traffic and Parking,Critical,Traffic Department,Baner,2026-05-25T00:03:32.103595+00:00,2026-05-26T15:29:28.378681+00:00,RESOLVED,0,46,High
+C0489,Other,High,General Municipal Helpdesk,Model Colony,2026-05-25T04:21:19.122369+00:00,2026-05-28T06:19:15.081658+00:00,RESOLVED,5,40,Medium
+C0187,Street Lighting,High,Electrical Department,MG Road,2026-05-25T06:14:39.800205+00:00,2026-05-29T11:30:49.589483+00:00,RESOLVED,5,3,Low
+C0030,Traffic and Parking,Medium,Traffic Department,Viman Nagar,2026-05-25T08:31:28.691998+00:00,2026-06-02T00:34:25.964811+00:00,CONFIRMED,5,45,Low
+C0212,Electricity,Critical,Electrical Utility,Aundh,2026-05-26T03:52:17.273816+00:00,2026-06-02T23:45:17.661921+00:00,RESOLVED,3,32,Medium
+C0361,Road Infrastructure,High,Public Works Department,Model Colony,2026-05-26T13:07:12.121679+00:00,2026-05-31T15:55:02.280890+00:00,RESOLVED,0,34,Low
+C0521,Water Supply,Medium,Water Department,Viman Nagar,2026-05-26T20:48:52.536590+00:00,2026-05-27T21:12:52.541863+00:00,RESOLVED,10,1,Low
+C0221,Street Lighting,Low,Electrical Department,Aundh,2026-05-27T00:26:03.820057+00:00,,ACKNOWLEDGED,9,9,Low
+C0003,Water Supply,High,Water Department,Kothrud,2026-05-27T19:21:09.622542+00:00,2026-05-31T02:01:28.400118+00:00,RESOLVED,13,7,Medium
+C0312,Drainage and Sewage,Critical,Sewerage/Drainage Department,Hinjewadi,2026-05-27T21:30:09.326741+00:00,2026-06-02T17:31:25.218000+00:00,CONFIRMED,10,15,Low
+C0418,Drainage and Sewage,High,Sewerage/Drainage Department,Model Colony,2026-05-28T12:54:39.638429+00:00,2026-05-31T06:50:00.873821+00:00,RESOLVED,12,77,Medium
+C0059,Road Infrastructure,Critical,Public Works Department,Baner,2026-05-28T14:19:20.077885+00:00,2026-06-01T20:46:06.858063+00:00,RESOLVED,3,18,Low
+C0013,Drainage and Sewage,High,Sewerage/Drainage Department,Aundh,2026-05-28T17:27:42.912556+00:00,,ACKNOWLEDGED,4,23,Low
+C0288,Public Safety,Critical,Public Safety/Police Liaison,MG Road,2026-05-29T18:40:36.073955+00:00,2026-06-01T21:54:39.242121+00:00,CONFIRMED,8,1,High
+C0565,Traffic and Parking,High,Traffic Department,Wagholi,2026-05-29T20:08:15.573972+00:00,2026-06-02T23:55:02.652077+00:00,CONFIRMED,0,34,Medium
+C0072,Street Lighting,High,Electrical Department,Wagholi,2026-05-29T22:31:03.199885+00:00,,IN_PROGRESS,8,50,Medium
+C0342,Road Infrastructure,Medium,Public Works Department,MG Road,2026-05-30T01:27:52.796719+00:00,2026-06-03T17:56:35.170108+00:00,RESOLVED,14,41,Low
+C0012,Public Safety,Medium,Public Safety/Police Liaison,Wagholi,2026-05-30T09:02:14.468762+00:00,2026-06-05T00:01:37.861551+00:00,CONFIRMED,12,16,Low
+C0084,Traffic and Parking,Medium,Traffic Department,MG Road,2026-05-30T14:28:11.555848+00:00,,ESCALATED,13,58,Low
+C0173,Street Lighting,Low,Electrical Department,Hinjewadi,2026-05-31T15:38:19.841472+00:00,2026-06-05T12:14:57.608431+00:00,RESOLVED,11,53,Low
+C0136,Street Lighting,Medium,Electrical Department,Wagholi,2026-05-31T16:59:27.093452+00:00,,ACKNOWLEDGED,10,19,Low
+C0278,Drainage and Sewage,Low,Sewerage/Drainage Department,Baner,2026-06-02T16:06:23.100356+00:00,,IN_PROGRESS,7,1,Low
+C0296,Drainage and Sewage,Low,Sewerage/Drainage Department,Viman Nagar,2026-06-03T03:59:48.099059+00:00,2026-06-04T07:30:43.905437+00:00,RESOLVED,11,59,Low
+C0595,Drainage and Sewage,Medium,Sewerage/Drainage Department,Wagholi,2026-06-04T05:23:10.531461+00:00,,SUBMITTED,3,19,Medium
+C0270,Drainage and Sewage,High,Sewerage/Drainage Department,Baner,2026-06-04T10:27:40.199231+00:00,2026-06-08T22:27:07.073963+00:00,CONFIRMED,5,41,Medium
+C0039,Drainage and Sewage,Medium,Sewerage/Drainage Department,Baner,2026-06-04T11:16:14.630686+00:00,2026-06-04T16:04:14.630686+00:00,RESOLVED,23,48,Medium
+C0233,Other,Critical,General Municipal Helpdesk,Hinjewadi,2026-06-04T18:03:49.398405+00:00,2026-06-09T08:50:13.564824+00:00,RESOLVED,7,81,High
+C0415,Drainage and Sewage,High,Sewerage/Drainage Department,Baner,2026-06-05T01:09:34.220101+00:00,,ACKNOWLEDGED,5,15,Low
+C0446,Water Supply,Low,Water Department,Aundh,2026-06-05T01:20:24.221773+00:00,,IN_PROGRESS,1,1,Low
+C0049,Water Supply,Low,Water Department,MG Road,2026-06-05T05:37:02.506080+00:00,2026-06-09T23:19:46.230027+00:00,CONFIRMED,21,30,Low
+C0349,Electricity,Low,Electrical Utility,Wagholi,2026-06-05T13:07:30.206244+00:00,,ESCALATED,9,11,Medium
+C0202,Water Supply,Medium,Water Department,Baner,2026-06-06T00:39:07.358062+00:00,,SUBMITTED,1,31,Low
+C0316,Water Supply,Medium,Water Department,Kothrud,2026-06-06T01:46:06.756621+00:00,2026-06-12T11:00:59.390284+00:00,RESOLVED,6,29,High
+C0200,Waste Management,Low,Municipal Sanitation,MG Road,2026-06-06T02:02:25.750306+00:00,2026-06-08T21:40:00.314185+00:00,RESOLVED,18,35,Low
+C0038,Water Supply,Medium,Water Department,Model Colony,2026-06-06T12:46:08.187320+00:00,2026-06-11T22:01:10.852971+00:00,CONFIRMED,5,81,Medium
+C0117,Electricity,Low,Electrical Utility,MG Road,2026-06-06T20:07:08.174082+00:00,,SUBMITTED,8,19,Medium
+C0600,Road Infrastructure,Medium,Public Works Department,Hinjewadi,2026-06-07T11:46:14.278769+00:00,2026-06-14T20:25:06.765687+00:00,CONFIRMED,1,31,Medium
+C0164,Street Lighting,Medium,Electrical Department,Wagholi,2026-06-07T11:52:18.695416+00:00,2026-06-11T02:01:22.801128+00:00,CONFIRMED,15,30,Low
+C0564,Public Safety,Critical,Public Safety/Police Liaison,Baner,2026-06-07T15:34:50.846369+00:00,2026-06-09T14:15:55.067484+00:00,RESOLVED,12,54,High
+C0252,Parks and Public Spaces,High,Parks Department,Aundh,2026-06-07T17:12:28.133277+00:00,2026-06-07T22:00:28.133277+00:00,RESOLVED,7,33,Low
+C0456,Street Lighting,Low,Electrical Department,Wagholi,2026-06-08T08:56:41.883165+00:00,2026-06-08T20:47:35.351705+00:00,RESOLVED,0,59,Low
+C0085,Electricity,High,Electrical Utility,Wagholi,2026-06-08T22:12:36.708296+00:00,2026-06-16T15:28:24.093827+00:00,RESOLVED,16,22,Medium
+C0587,Other,Low,General Municipal Helpdesk,Aundh,2026-06-09T03:26:30.900315+00:00,2026-06-17T23:00:07.549263+00:00,CONFIRMED,2,16,High
+C0179,Road Infrastructure,Medium,Public Works Department,Kothrud,2026-06-10T04:44:09.098892+00:00,2026-06-11T16:09:47.405555+00:00,RESOLVED,9,37,Low
+C0283,Road Infrastructure,Medium,Public Works Department,Hinjewadi,2026-06-10T21:19:49.170362+00:00,2026-06-16T06:08:05.634312+00:00,CONFIRMED,0,1,Medium
+C0180,Public Safety,Critical,Public Safety/Police Liaison,Model Colony,2026-06-10T22:52:00.066514+00:00,2026-06-17T11:35:08.610192+00:00,CONFIRMED,7,45,High
+C0362,Water Supply,Medium,Water Department,Kothrud,2026-06-11T03:10:06.508201+00:00,2026-06-14T12:48:39.997448+00:00,CONFIRMED,6,23,Low
+C0186,Public Safety,High,Public Safety/Police Liaison,MG Road,2026-06-11T19:16:48.373510+00:00,,ESCALATED,8,62,Low
+C0265,Street Lighting,Critical,Electrical Department,MG Road,2026-06-12T21:31:39.945986+00:00,2026-06-16T03:01:12.851170+00:00,RESOLVED,3,51,High
+C0487,Street Lighting,Low,Electrical Department,Aundh,2026-06-13T11:43:14.746287+00:00,2026-06-17T05:42:46.510001+00:00,RESOLVED,2,64,Medium
+C0403,Water Supply,High,Water Department,Wagholi,2026-06-13T17:33:54.571329+00:00,2026-06-17T03:10:53.093743+00:00,RESOLVED,0,26,Low
+C0125,Electricity,Medium,Electrical Utility,Aundh,2026-06-13T21:55:50.014467+00:00,,SUBMITTED,4,21,Low
+C0113,Water Supply,High,Water Department,Viman Nagar,2026-06-14T01:43:39.824923+00:00,2026-06-16T22:03:47.694240+00:00,RESOLVED,17,53,Low
+C0037,Traffic and Parking,Medium,Traffic Department,Wagholi,2026-06-14T07:54:20.992673+00:00,,ACKNOWLEDGED,0,49,Medium
+C0142,Public Safety,Medium,Public Safety/Police Liaison,MG Road,2026-06-14T13:53:03.875937+00:00,2026-06-17T23:35:48.520959+00:00,RESOLVED,15,79,Medium
+C0569,Parks and Public Spaces,Critical,Parks Department,Wagholi,2026-06-14T17:53:49.100823+00:00,2026-06-20T02:25:06.578301+00:00,RESOLVED,12,35,Medium
+C0466,Electricity,Medium,Electrical Utility,Model Colony,2026-06-14T21:40:00.934031+00:00,2026-06-15T07:17:49.712202+00:00,CONFIRMED,15,60,Medium
+C0574,Street Lighting,Low,Electrical Department,Aundh,2026-06-15T14:47:21.386414+00:00,2026-06-22T06:16:34.912998+00:00,RESOLVED,24,57,Medium
+C0326,Electricity,Low,Electrical Utility,Model Colony,2026-06-15T21:43:05.436685+00:00,2026-06-16T17:51:25.958349+00:00,RESOLVED,0,41,Low
+C0280,Road Infrastructure,High,Public Works Department,Model Colony,2026-06-15T23:40:01.591533+00:00,2026-06-17T08:31:32.532341+00:00,CONFIRMED,20,44,Low
+C0327,Street Lighting,Critical,Electrical Department,Baner,2026-06-16T13:48:57.922264+00:00,,ESCALATED,3,10,Low
+C0262,Drainage and Sewage,High,Sewerage/Drainage Department,MG Road,2026-06-17T14:59:59.161279+00:00,,ACKNOWLEDGED,2,32,Low
+C0506,Road Infrastructure,High,Public Works Department,Viman Nagar,2026-06-18T00:57:00.002483+00:00,,SUBMITTED,3,1,Medium
+C0130,Other,Low,General Municipal Helpdesk,Wagholi,2026-06-18T04:06:05.913386+00:00,2026-06-23T13:32:11.639469+00:00,RESOLVED,23,68,Medium
+C0445,Water Supply,Medium,Water Department,Kothrud,2026-06-18T08:54:53.330169+00:00,2026-06-25T07:28:13.137757+00:00,RESOLVED,8,47,Low
+C0389,Traffic and Parking,Low,Traffic Department,Model Colony,2026-06-18T10:39:18.919549+00:00,2026-06-21T21:36:40.524121+00:00,CONFIRMED,5,26,Low
+C0181,Drainage and Sewage,High,Sewerage/Drainage Department,Aundh,2026-06-19T05:06:53.376253+00:00,,ACKNOWLEDGED,5,60,Medium
+C0256,Traffic and Parking,Low,Traffic Department,Aundh,2026-06-19T10:19:11.553629+00:00,,IN_PROGRESS,11,73,Medium
+C0539,Waste Management,Medium,Municipal Sanitation,Aundh,2026-06-19T13:22:31.356634+00:00,2026-06-22T11:16:06.296534+00:00,RESOLVED,2,28,High
+C0374,Other,High,General Municipal Helpdesk,Wagholi,2026-06-19T18:45:19.927159+00:00,2026-06-24T00:31:03.296716+00:00,RESOLVED,6,39,High
+C0231,Waste Management,Low,Municipal Sanitation,Wagholi,2026-06-20T03:30:52.234147+00:00,,SUBMITTED,11,54,Low
+C0143,Road Infrastructure,High,Public Works Department,Model Colony,2026-06-20T16:47:42.364911+00:00,2026-06-22T12:27:43.021762+00:00,CONFIRMED,5,72,Low
+C0157,Public Safety,High,Public Safety/Police Liaison,Model Colony,2026-06-20T20:28:03.702008+00:00,,ESCALATED,10,34,Low
+C0496,Waste Management,Medium,Municipal Sanitation,Viman Nagar,2026-06-21T07:43:54.442261+00:00,2026-06-23T04:09:37.821638+00:00,CONFIRMED,5,21,Low
+C0141,Water Supply,Medium,Water Department,Model Colony,2026-06-21T10:55:56.729046+00:00,2026-06-28T21:57:47.663779+00:00,RESOLVED,0,3,Low
+C0468,Water Supply,Medium,Water Department,Wagholi,2026-06-21T15:38:11.273548+00:00,,SUBMITTED,5,73,Medium
+C0206,Public Safety,High,Public Safety/Police Liaison,Baner,2026-06-21T18:29:45.142970+00:00,2026-06-24T07:21:14.008583+00:00,RESOLVED,7,15,Medium
+C0323,Waste Management,Medium,Municipal Sanitation,Kothrud,2026-06-21T22:07:44.380305+00:00,,ACKNOWLEDGED,4,31,Medium
+C0267,Parks and Public Spaces,Medium,Parks Department,Model Colony,2026-06-21T22:18:36.567712+00:00,2026-06-27T06:45:06.800913+00:00,RESOLVED,9,76,Low
+C0551,Drainage and Sewage,Low,Sewerage/Drainage Department,Viman Nagar,2026-06-22T01:32:20.164728+00:00,2026-06-23T09:25:27.479982+00:00,RESOLVED,0,32,Low
+C0495,Parks and Public Spaces,Low,Parks Department,MG Road,2026-06-22T08:17:56.890739+00:00,2026-06-28T23:14:50.166700+00:00,RESOLVED,16,1,Low
+C0254,Waste Management,Medium,Municipal Sanitation,Hinjewadi,2026-06-24T09:38:17.811663+00:00,2026-06-30T09:25:47.871513+00:00,RESOLVED,7,23,Medium
+C0406,Waste Management,Medium,Municipal Sanitation,Baner,2026-06-24T12:39:40.463714+00:00,2026-07-01T02:25:27.694765+00:00,RESOLVED,2,59,Medium
+C0432,Water Supply,Low,Water Department,Hinjewadi,2026-06-24T14:10:26.533606+00:00,2026-06-24T18:58:26.533606+00:00,RESOLVED,0,39,Medium
+C0404,Traffic and Parking,Low,Traffic Department,Aundh,2026-06-25T01:08:02.788458+00:00,2026-06-30T13:51:56.010212+00:00,CONFIRMED,17,25,High
+C0094,Road Infrastructure,Critical,Public Works Department,MG Road,2026-06-25T03:38:38.871435+00:00,2026-07-02T23:53:51.879602+00:00,RESOLVED,4,83,Medium
+C0477,Waste Management,Critical,Municipal Sanitation,Wagholi,2026-06-25T10:58:17.654534+00:00,,IN_PROGRESS,22,58,Low
+C0352,Public Safety,Medium,Public Safety/Police Liaison,Aundh,2026-06-25T16:32:01.470136+00:00,2026-06-30T10:34:52.192148+00:00,RESOLVED,14,18,High
+C0581,Waste Management,High,Municipal Sanitation,MG Road,2026-06-26T03:08:56.731307+00:00,,ESCALATED,5,70,Low
+C0028,Waste Management,Low,Municipal Sanitation,Kothrud,2026-06-26T03:52:53.238648+00:00,,IN_PROGRESS,18,11,Medium
+C0001,Electricity,Medium,Electrical Utility,Wagholi,2026-06-26T04:18:13.987963+00:00,,ACKNOWLEDGED,10,67,Medium
+C0425,Electricity,Critical,Electrical Utility,MG Road,2026-06-26T05:20:07.766900+00:00,2026-06-28T18:35:13.665292+00:00,RESOLVED,8,15,High
+C0114,Electricity,Low,Electrical Utility,Baner,2026-06-26T14:25:08.212694+00:00,,ACKNOWLEDGED,8,42,High
+C0096,Parks and Public Spaces,Low,Parks Department,Viman Nagar,2026-06-27T04:09:48.324398+00:00,,ACKNOWLEDGED,3,1,Low
+C0257,Street Lighting,High,Electrical Department,Aundh,2026-06-27T07:27:04.941241+00:00,,IN_PROGRESS,4,54,Low
+C0438,Electricity,High,Electrical Utility,MG Road,2026-06-27T11:58:59.532621+00:00,,ACKNOWLEDGED,0,89,High
+C0371,Street Lighting,Low,Electrical Department,Wagholi,2026-06-27T14:24:14.657399+00:00,2026-07-02T02:46:26.775197+00:00,CONFIRMED,0,1,Medium
+C0058,Waste Management,Medium,Municipal Sanitation,Kothrud,2026-06-27T15:01:03.069203+00:00,,ESCALATED,6,17,Low
+C0367,Drainage and Sewage,Low,Sewerage/Drainage Department,Hinjewadi,2026-06-28T00:39:10.030945+00:00,,ESCALATED,3,49,Low
+C0555,Waste Management,Low,Municipal Sanitation,Baner,2026-06-28T02:45:45.581878+00:00,2026-07-01T00:45:27.397274+00:00,RESOLVED,4,24,High
+C0386,Waste Management,Low,Municipal Sanitation,Kothrud,2026-06-28T08:27:36.395206+00:00,2026-07-08T07:40:46.019793+00:00,RESOLVED,3,18,Medium
+C0350,Traffic and Parking,Medium,Traffic Department,MG Road,2026-06-28T09:14:11.122159+00:00,2026-06-30T08:30:26.807530+00:00,RESOLVED,10,28,Low
+C0523,Drainage and Sewage,Low,Sewerage/Drainage Department,Wagholi,2026-06-28T18:23:17.142556+00:00,,ESCALATED,3,42,Medium
+C0230,Water Supply,Medium,Water Department,Viman Nagar,2026-06-28T23:42:57.234726+00:00,2026-07-02T02:19:51.568499+00:00,RESOLVED,11,79,Low
+C0276,Street Lighting,Medium,Electrical Department,MG Road,2026-06-29T06:54:59.216239+00:00,2026-07-02T19:49:32.963444+00:00,RESOLVED,0,1,Low
+C0510,Traffic and Parking,Critical,Traffic Department,Viman Nagar,2026-06-29T08:50:16.503360+00:00,2026-06-29T17:39:12.214464+00:00,RESOLVED,2,1,Low
+C0394,Traffic and Parking,Medium,Traffic Department,Kothrud,2026-06-30T03:01:55.743844+00:00,,SUBMITTED,8,50,Low
+C0450,Road Infrastructure,Medium,Public Works Department,Baner,2026-06-30T08:24:38.616134+00:00,2026-07-02T12:19:40.426214+00:00,RESOLVED,18,1,Medium
+C0036,Road Infrastructure,Medium,Public Works Department,Aundh,2026-06-30T09:35:14.501884+00:00,,ACKNOWLEDGED,0,57,High
+C0277,Waste Management,Low,Municipal Sanitation,Baner,2026-06-30T19:30:28.224739+00:00,2026-07-07T19:57:33.222973+00:00,CONFIRMED,12,97,Low
+C0503,Parks and Public Spaces,Low,Parks Department,Hinjewadi,2026-07-01T09:11:44.273833+00:00,,ACKNOWLEDGED,7,35,Medium
+C0122,Other,Low,General Municipal Helpdesk,Viman Nagar,2026-07-01T09:17:22.685622+00:00,,ACKNOWLEDGED,8,59,Medium
+C0321,Water Supply,Medium,Water Department,MG Road,2026-07-01T16:31:31.786777+00:00,,SUBMITTED,0,86,Low
+C0042,Road Infrastructure,Low,Public Works Department,Model Colony,2026-07-02T02:10:26.425682+00:00,,SUBMITTED,4,52,Low
+C0213,Waste Management,High,Municipal Sanitation,Aundh,2026-07-02T07:19:59.489834+00:00,2026-07-06T04:16:53.453881+00:00,CONFIRMED,3,57,Low
+C0102,Public Safety,Low,Public Safety/Police Liaison,Hinjewadi,2026-07-02T11:00:04.040158+00:00,,IN_PROGRESS,4,38,High
+C0150,Parks and Public Spaces,Low,Parks Department,Viman Nagar,2026-07-03T15:15:15.643075+00:00,,ESCALATED,0,79,Low
+C0499,Waste Management,Low,Municipal Sanitation,Wagholi,2026-07-03T16:42:28.126034+00:00,,ESCALATED,15,51,Medium
+C0410,Electricity,Medium,Electrical Utility,MG Road,2026-07-03T23:13:57.594374+00:00,2026-07-08T17:43:28.131333+00:00,RESOLVED,17,65,Low
+C0005,Electricity,High,Electrical Utility,Viman Nagar,2026-07-04T09:17:57.872558+00:00,2026-07-08T03:44:21.173089+00:00,RESOLVED,10,38,Medium
+C0208,Waste Management,High,Municipal Sanitation,Kothrud,2026-07-04T10:02:35.012918+00:00,2026-07-12T03:54:52.784990+00:00,RESOLVED,5,46,Medium
+C0092,Electricity,Critical,Electrical Utility,Model Colony,2026-07-04T14:59:25.322660+00:00,,SUBMITTED,2,5,Low
+C0105,Water Supply,High,Water Department,Model Colony,2026-07-04T23:56:15.482304+00:00,,ESCALATED,1,6,Medium
+C0097,Traffic and Parking,Low,Traffic Department,Viman Nagar,2026-07-05T04:44:17.490900+00:00,2026-07-05T09:32:17.490900+00:00,CONFIRMED,12,4,High
+C0576,Street Lighting,Medium,Electrical Department,Model Colony,2026-07-05T09:49:16.615655+00:00,2026-07-12T22:09:25.567448+00:00,CONFIRMED,6,23,Medium
+C0040,Other,Medium,General Municipal Helpdesk,Viman Nagar,2026-07-05T12:03:39.456877+00:00,,SUBMITTED,14,20,High
+C0259,Waste Management,Low,Municipal Sanitation,Aundh,2026-07-05T15:23:31.873065+00:00,,ESCALATED,9,27,Medium
+C0435,Waste Management,Low,Municipal Sanitation,MG Road,2026-07-06T00:37:32.170142+00:00,,IN_PROGRESS,6,35,Low
+C0219,Waste Management,Low,Municipal Sanitation,Wagholi,2026-07-06T06:23:06.245399+00:00,2026-07-08T13:10:12.932733+00:00,CONFIRMED,5,86,Low
+C0056,Other,Low,General Municipal Helpdesk,Kothrud,2026-07-06T10:33:56.478071+00:00,2026-07-10T11:11:36.836311+00:00,RESOLVED,1,47,Medium
+C0093,Traffic and Parking,High,Traffic Department,Viman Nagar,2026-07-06T15:28:57.612241+00:00,2026-07-13T14:03:42.669290+00:00,RESOLVED,6,13,Medium
+C0398,Street Lighting,Medium,Electrical Department,Kothrud,2026-07-06T19:44:55.426098+00:00,2026-07-15T10:58:28.058076+00:00,RESOLVED,4,40,Low
+C0132,Street Lighting,Medium,Electrical Department,Wagholi,2026-07-06T21:10:01.679273+00:00,2026-07-16T03:02:08.099446+00:00,RESOLVED,18,33,Medium
+C0469,Public Safety,Medium,Public Safety/Police Liaison,Model Colony,2026-07-07T07:47:27.139168+00:00,2026-07-11T11:33:50.937710+00:00,CONFIRMED,4,63,Low
+C0457,Electricity,High,Electrical Utility,Wagholi,2026-07-07T14:16:01.565988+00:00,2026-07-08T17:56:51.988969+00:00,CONFIRMED,2,20,Low
+C0490,Electricity,Medium,Electrical Utility,Wagholi,2026-07-07T21:48:31.315580+00:00,2026-07-12T21:46:13.328303+00:00,RESOLVED,17,74,Low
+C0006,Road Infrastructure,Low,Public Works Department,Kothrud,2026-07-08T00:50:42.359057+00:00,,SUBMITTED,1,1,Low
+C0480,Drainage and Sewage,High,Sewerage/Drainage Department,Baner,2026-07-08T07:14:42.624068+00:00,2026-07-16T13:48:52.052149+00:00,RESOLVED,1,103,Low
+C0149,Public Safety,Low,Public Safety/Police Liaison,Hinjewadi,2026-07-08T09:55:19.197327+00:00,,ACKNOWLEDGED,9,1,Medium
+C0009,Parks and Public Spaces,Critical,Parks Department,Baner,2026-07-08T12:46:32.995410+00:00,2026-07-12T03:16:58.701373+00:00,CONFIRMED,15,28,High
+C0308,Drainage and Sewage,Medium,Sewerage/Drainage Department,Baner,2026-07-08T13:42:08.429674+00:00,,IN_PROGRESS,3,33,Medium
+C0135,Road Infrastructure,Medium,Public Works Department,MG Road,2026-07-09T00:05:47.611804+00:00,2026-07-13T14:03:21.103436+00:00,CONFIRMED,10,2,Low
+C0459,Public Safety,High,Public Safety/Police Liaison,Model Colony,2026-07-09T11:19:35.168905+00:00,2026-07-17T04:21:19.846129+00:00,RESOLVED,13,6,Low
+C0533,Electricity,High,Electrical Utility,Hinjewadi,2026-07-09T18:07:57.390121+00:00,2026-07-15T04:57:35.870848+00:00,CONFIRMED,7,84,Low
+C0548,Street Lighting,Medium,Electrical Department,Viman Nagar,2026-07-10T01:04:05.351399+00:00,,ESCALATED,9,34,High
+C0568,Waste Management,Medium,Municipal Sanitation,Wagholi,2026-07-10T14:56:10.815395+00:00,2026-07-17T16:15:28.741056+00:00,RESOLVED,6,44,Medium
+C0306,Public Safety,Medium,Public Safety/Police Liaison,Baner,2026-07-10T18:46:41.449271+00:00,,ACKNOWLEDGED,8,36,Medium
+C0236,Public Safety,High,Public Safety/Police Liaison,Hinjewadi,2026-07-11T01:30:54.617679+00:00,2026-07-15T16:54:30.759685+00:00,CONFIRMED,11,34,Medium
+C0443,Waste Management,Medium,Municipal Sanitation,Wagholi,2026-07-11T05:39:17.302811+00:00,2026-07-17T22:38:41.052304+00:00,RESOLVED,5,33,Medium
+C0024,Water Supply,Medium,Water Department,MG Road,2026-07-11T09:02:01.398578+00:00,,IN_PROGRESS,4,7,High
+C0155,Electricity,Low,Electrical Utility,Wagholi,2026-07-11T13:47:29.924861+00:00,2026-07-13T14:42:55.439237+00:00,RESOLVED,11,67,Low
+C0461,Public Safety,High,Public Safety/Police Liaison,Baner,2026-07-12T00:27:21.394965+00:00,2026-07-17T18:13:21.274795+00:00,CONFIRMED,13,49,Low
+C0292,Parks and Public Spaces,Low,Parks Department,Aundh,2026-07-12T00:59:31.610924+00:00,2026-07-15T01:39:53.354017+00:00,CONFIRMED,0,41,Low
+C0451,Road Infrastructure,High,Public Works Department,Model Colony,2026-07-12T01:27:04.172644+00:00,,ACKNOWLEDGED,11,125,Low
+C0414,Road Infrastructure,Medium,Public Works Department,Aundh,2026-07-12T04:44:37.170536+00:00,,ACKNOWLEDGED,3,21,Low
+C0064,Water Supply,Medium,Water Department,Baner,2026-07-12T05:07:07.123930+00:00,2026-07-12T10:02:55.030402+00:00,RESOLVED,13,1,High
+C0493,Street Lighting,Medium,Electrical Department,Viman Nagar,2026-07-13T08:41:21.124800+00:00,,ESCALATED,4,27,Low
+C0382,Road Infrastructure,Medium,Public Works Department,Hinjewadi,2026-07-13T08:46:46.177674+00:00,,IN_PROGRESS,5,35,Low
+C0441,Parks and Public Spaces,High,Parks Department,MG Road,2026-07-13T10:40:30.304616+00:00,2026-07-15T10:14:13.523677+00:00,RESOLVED,4,33,Medium
+C0449,Drainage and Sewage,Medium,Sewerage/Drainage Department,Aundh,2026-07-14T00:41:10.924143+00:00,,ACKNOWLEDGED,5,58,Low
+C0338,Public Safety,Critical,Public Safety/Police Liaison,Model Colony,2026-07-14T03:45:41.392172+00:00,,IN_PROGRESS,1,63,Low
+C0167,Electricity,Medium,Electrical Utility,Baner,2026-07-14T08:31:49.906444+00:00,2026-07-18T05:18:07.955138+00:00,RESOLVED,10,14,Low
+C0582,Electricity,Low,Electrical Utility,Hinjewadi,2026-07-14T10:50:30.466408+00:00,2026-07-18T02:29:25.844147+00:00,CONFIRMED,5,13,Low
+C0522,Drainage and Sewage,High,Sewerage/Drainage Department,MG Road,2026-07-14T14:18:31.760053+00:00,2026-07-14T19:06:31.760053+00:00,RESOLVED,10,64,Medium
+C0174,Water Supply,Medium,Water Department,Aundh,2026-07-15T01:29:05.379021+00:00,2026-07-18T09:36:29.153835+00:00,RESOLVED,9,95,Medium
+C0190,Parks and Public Spaces,Medium,Parks Department,MG Road,2026-07-15T06:20:16.425876+00:00,2026-07-20T01:27:33.904544+00:00,RESOLVED,18,1,Low
+C0575,Water Supply,Medium,Water Department,Wagholi,2026-07-15T07:16:45.851373+00:00,,ESCALATED,5,1,Medium
+C0108,Other,High,General Municipal Helpdesk,Baner,2026-07-15T10:15:35.834906+00:00,2026-07-22T00:20:31.430483+00:00,CONFIRMED,0,8,Medium
+C0301,Water Supply,Medium,Water Department,MG Road,2026-07-15T17:16:04.796689+00:00,,ESCALATED,0,1,Medium
+C0310,Road Infrastructure,Low,Public Works Department,Viman Nagar,2026-07-16T00:19:38.811567+00:00,2026-07-19T02:40:17.228347+00:00,RESOLVED,8,23,Medium
+C0249,Water Supply,Critical,Water Department,Model Colony,2026-07-16T01:03:56.506620+00:00,2026-07-16T12:21:53.477467+00:00,CONFIRMED,4,34,Low
+C0079,Public Safety,High,Public Safety/Police Liaison,Aundh,2026-07-16T19:13:43.937060+00:00,,SUBMITTED,6,17,Low
+C0299,Other,Low,General Municipal Helpdesk,Kothrud,2026-07-16T23:45:40.583002+00:00,,ACKNOWLEDGED,14,17,Low
+C0429,Street Lighting,High,Electrical Department,Baner,2026-07-17T07:23:35.741611+00:00,2026-07-28T03:32:52.241178+00:00,RESOLVED,7,94,Low
+C0347,Parks and Public Spaces,Medium,Parks Department,Kothrud,2026-07-17T10:15:07.970034+00:00,2026-07-18T22:48:26.773673+00:00,CONFIRMED,9,61,Medium
+C0237,Drainage and Sewage,Medium,Sewerage/Drainage Department,Model Colony,2026-07-17T16:31:42.043490+00:00,,SUBMITTED,14,43,Low
+C0018,Electricity,Medium,Electrical Utility,Aundh,2026-07-18T00:48:53.899396+00:00,,ESCALATED,15,10,High
+C0238,Drainage and Sewage,High,Sewerage/Drainage Department,Kothrud,2026-07-18T06:47:02.594048+00:00,,SUBMITTED,11,20,Low
+C0211,Public Safety,Critical,Public Safety/Police Liaison,Aundh,2026-07-18T12:49:15.289514+00:00,,IN_PROGRESS,17,52,Low
+C0073,Waste Management,High,Municipal Sanitation,Hinjewadi,2026-07-18T17:39:31.769517+00:00,,IN_PROGRESS,5,1,Low
+C0025,Street Lighting,Medium,Electrical Department,MG Road,2026-07-18T18:06:49.260113+00:00,,ACKNOWLEDGED,12,14,Medium
+C0325,Traffic and Parking,Medium,Traffic Department,Model Colony,2026-07-18T19:15:48.432961+00:00,2026-07-23T15:10:54.656830+00:00,RESOLVED,3,38,Medium
+C0004,Other,Medium,General Municipal Helpdesk,MG Road,2026-07-18T20:59:46.585317+00:00,,ESCALATED,10,35,Medium
+C0561,Other,High,General Municipal Helpdesk,Baner,2026-07-19T17:43:05.543381+00:00,,ESCALATED,0,37,Low
+C0485,Road Infrastructure,High,Public Works Department,Aundh,2026-07-19T21:34:31.975452+00:00,2026-07-26T23:49:34.540372+00:00,RESOLVED,3,40,Medium
+C0504,Traffic and Parking,Medium,Traffic Department,MG Road,2026-07-20T04:50:29.570066+00:00,,IN_PROGRESS,12,21,Low
+C0074,Parks and Public Spaces,Low,Parks Department,MG Road,2026-07-20T10:28:06.330445+00:00,,SUBMITTED,12,15,Low
+C0528,Public Safety,Critical,Public Safety/Police Liaison,Viman Nagar,2026-07-20T10:53:39.944990+00:00,,ACKNOWLEDGED,5,4,Low
+C0026,Water Supply,Medium,Water Department,Aundh,2026-07-20T15:21:37.398575+00:00,,SUBMITTED,4,1,Low
+C0339,Waste Management,Critical,Municipal Sanitation,Aundh,2026-07-20T20:11:10.076275+00:00,2026-07-25T20:49:51.443693+00:00,RESOLVED,10,1,Low
+C0129,Other,High,General Municipal Helpdesk,Model Colony,2026-07-21T00:34:11.272414+00:00,2026-07-26T17:44:10.490332+00:00,RESOLVED,2,33,Low
+C0286,Traffic and Parking,Medium,Traffic Department,Model Colony,2026-07-21T03:21:07.406417+00:00,,ACKNOWLEDGED,5,1,Low
+C0115,Traffic and Parking,Critical,Traffic Department,Aundh,2026-07-22T04:40:42.544366+00:00,,ESCALATED,8,49,High
+C0585,Traffic and Parking,Low,Traffic Department,Wagholi,2026-07-22T18:04:49.010348+00:00,2026-07-27T23:44:07.807337+00:00,RESOLVED,6,45,Medium
+C0140,Other,Medium,General Municipal Helpdesk,MG Road,2026-07-23T04:54:55.460742+00:00,2026-08-01T08:03:18.597963+00:00,RESOLVED,10,49,Low
+C0420,Street Lighting,Low,Electrical Department,MG Road,2026-07-23T16:56:05.302879+00:00,2026-07-28T20:09:29.022151+00:00,RESOLVED,7,1,Low
+C0266,Electricity,Low,Electrical Utility,Baner,2026-07-24T09:33:43.103228+00:00,,ESCALATED,10,28,Low
+C0246,Other,Medium,General Municipal Helpdesk,Wagholi,2026-07-24T14:39:00.179680+00:00,,ESCALATED,12,15,High
+C0314,Waste Management,Medium,Municipal Sanitation,Aundh,2026-07-24T21:37:07.878198+00:00,,IN_PROGRESS,8,20,High
+C0538,Traffic and Parking,High,Traffic Department,MG Road,2026-07-25T00:07:54.377961+00:00,,ESCALATED,5,33,Low
+C0224,Street Lighting,Low,Electrical Department,Viman Nagar,2026-07-25T05:58:07.202275+00:00,2026-07-29T04:50:56.787461+00:00,RESOLVED,12,34,Low
+C0168,Drainage and Sewage,Medium,Sewerage/Drainage Department,Wagholi,2026-07-25T06:18:40.971548+00:00,,SUBMITTED,8,41,Low
+C0282,Parks and Public Spaces,Low,Parks Department,Kothrud,2026-07-25T08:46:27.280908+00:00,2026-07-27T15:26:27.977600+00:00,RESOLVED,0,17,Low
+C0104,Public Safety,Critical,Public Safety/Police Liaison,MG Road,2026-07-25T15:55:18.578981+00:00,2026-07-28T21:38:45.656272+00:00,RESOLVED,0,3,Low
+C0502,Traffic and Parking,Medium,Traffic Department,Viman Nagar,2026-07-26T08:47:48.243406+00:00,2026-08-01T01:29:57.760031+00:00,RESOLVED,1,45,Medium
+C0384,Other,High,General Municipal Helpdesk,Aundh,2026-07-26T09:12:45.375174+00:00,,SUBMITTED,5,53,Low
+C0043,Public Safety,High,Public Safety/Police Liaison,MG Road,2026-07-26T11:21:12.752168+00:00,2026-07-30T19:05:51.301306+00:00,CONFIRMED,13,59,Low
+C0402,Road Infrastructure,Medium,Public Works Department,Model Colony,2026-07-26T14:11:01.696407+00:00,,ACKNOWLEDGED,2,18,Low
+C0076,Road Infrastructure,Medium,Public Works Department,MG Road,2026-07-26T22:41:53.550539+00:00,,IN_PROGRESS,17,77,Medium
+C0192,Traffic and Parking,Low,Traffic Department,Model Colony,2026-07-26T23:23:56.445540+00:00,,ACKNOWLEDGED,13,37,Medium
+C0577,Waste Management,Medium,Municipal Sanitation,Aundh,2026-07-27T07:43:05.173885+00:00,,ACKNOWLEDGED,6,73,High
+C0529,Water Supply,Low,Water Department,MG Road,2026-07-27T12:01:12.845156+00:00,2026-07-31T01:19:56.436179+00:00,RESOLVED,14,7,High
+C0488,Other,Low,General Municipal Helpdesk,Baner,2026-07-27T21:42:12.262988+00:00,,ACKNOWLEDGED,14,21,Low
+C0366,Waste Management,High,Municipal Sanitation,Baner,2026-07-28T02:04:15.926990+00:00,,SUBMITTED,0,1,Low
+C0368,Electricity,Low,Electrical Utility,Viman Nagar,2026-07-28T09:29:51.684395+00:00,2026-07-31T21:09:51.263198+00:00,RESOLVED,4,32,Low
+C0055,Street Lighting,Low,Electrical Department,Hinjewadi,2026-07-28T11:19:45.418541+00:00,2026-08-04T03:13:58.294611+00:00,RESOLVED,11,14,Low
+C0225,Street Lighting,Critical,Electrical Department,Model Colony,2026-07-28T12:52:38.592784+00:00,2026-08-02T20:44:24.996867+00:00,RESOLVED,11,1,Low
+C0210,Parks and Public Spaces,Medium,Parks Department,Hinjewadi,2026-07-28T23:39:49.451862+00:00,2026-08-02T08:19:42.619732+00:00,RESOLVED,22,79,Medium
+C0363,Parks and Public Spaces,High,Parks Department,Aundh,2026-07-29T01:45:27.387122+00:00,2026-07-30T09:22:00.627645+00:00,RESOLVED,4,59,Low
+C0107,Other,Low,General Municipal Helpdesk,Hinjewadi,2026-07-30T03:34:48.515805+00:00,,ACKNOWLEDGED,2,55,Low
+C0412,Drainage and Sewage,Low,Sewerage/Drainage Department,Hinjewadi,2026-07-31T03:22:46.226210+00:00,,SUBMITTED,4,33,Low
+C0340,Traffic and Parking,Low,Traffic Department,MG Road,2026-07-31T18:39:14.167790+00:00,2026-07-31T23:27:14.167790+00:00,RESOLVED,18,15,High
+C0442,Parks and Public Spaces,Low,Parks Department,Kothrud,2026-07-31T23:07:12.011838+00:00,,ESCALATED,6,1,Medium
+C0017,Road Infrastructure,Low,Public Works Department,Aundh,2026-08-01T18:37:37.029595+00:00,,ACKNOWLEDGED,10,43,Low
+C0558,Water Supply,Low,Water Department,Hinjewadi,2026-08-02T09:30:32.950955+00:00,2026-08-05T13:05:59.203043+00:00,RESOLVED,5,22,High
+C0359,Other,Medium,General Municipal Helpdesk,Hinjewadi,2026-08-02T10:02:50.528182+00:00,,SUBMITTED,1,26,Low
+C0271,Other,Medium,General Municipal Helpdesk,Wagholi,2026-08-02T11:13:29.261378+00:00,2026-08-06T00:59:48.798570+00:00,CONFIRMED,0,40,Medium
+C0376,Drainage and Sewage,Low,Sewerage/Drainage Department,Aundh,2026-08-02T12:47:00.360766+00:00,2026-08-06T16:03:26.189988+00:00,RESOLVED,15,11,Low
+C0335,Parks and Public Spaces,Medium,Parks Department,MG Road,2026-08-02T23:05:41.569042+00:00,2026-08-04T13:56:50.218097+00:00,RESOLVED,13,84,Low
+C0401,Traffic and Parking,Medium,Traffic Department,Viman Nagar,2026-08-03T00:02:34.586364+00:00,,ESCALATED,0,72,Low
+C0320,Traffic and Parking,Critical,Traffic Department,Aundh,2026-08-03T03:39:27.042172+00:00,,ACKNOWLEDGED,13,63,Medium
+C0417,Waste Management,Medium,Municipal Sanitation,Wagholi,2026-08-04T03:13:06.089538+00:00,2026-08-10T14:59:05.482616+00:00,CONFIRMED,8,65,High
+C0255,Parks and Public Spaces,Low,Parks Department,Kothrud,2026-08-04T09:38:26.113956+00:00,,SUBMITTED,8,1,High
+C0560,Waste Management,Medium,Municipal Sanitation,Hinjewadi,2026-08-04T15:21:52.417580+00:00,,SUBMITTED,17,40,High
+C0133,Street Lighting,Medium,Electrical Department,Viman Nagar,2026-08-05T05:31:35.687754+00:00,2026-08-11T09:32:40.966170+00:00,RESOLVED,5,1,Medium
+C0422,Parks and Public Spaces,Medium,Parks Department,Wagholi,2026-08-05T05:49:22.691306+00:00,,IN_PROGRESS,17,15,Low
+C0519,Drainage and Sewage,Critical,Sewerage/Drainage Department,Viman Nagar,2026-08-05T10:38:21.616138+00:00,,SUBMITTED,5,26,Low
+C0172,Parks and Public Spaces,Medium,Parks Department,Hinjewadi,2026-08-05T16:56:48.721629+00:00,2026-08-07T19:07:41.960122+00:00,CONFIRMED,3,30,Medium
+C0119,Street Lighting,High,Electrical Department,Viman Nagar,2026-08-06T10:11:56.440710+00:00,2026-08-10T18:17:52.948995+00:00,RESOLVED,16,42,Medium
+C0508,Public Safety,Low,Public Safety/Police Liaison,Wagholi,2026-08-06T18:01:11.824688+00:00,2026-08-07T18:01:53.924714+00:00,RESOLVED,13,20,Medium
+C0511,Waste Management,Critical,Municipal Sanitation,Viman Nagar,2026-08-06T20:12:20.088847+00:00,2026-08-07T20:42:02.680576+00:00,RESOLVED,8,9,Low
+C0045,Drainage and Sewage,Low,Sewerage/Drainage Department,Aundh,2026-08-07T07:20:18.864214+00:00,,IN_PROGRESS,12,19,Low
+C0201,Traffic and Parking,Medium,Traffic Department,Aundh,2026-08-07T10:22:44.420187+00:00,,SUBMITTED,14,48,Low
+C0597,Street Lighting,Low,Electrical Department,Baner,2026-08-07T13:43:20.917010+00:00,,ESCALATED,0,6,Low
+C0396,Water Supply,High,Water Department,Model Colony,2026-08-07T16:55:11.988421+00:00,2026-08-11T22:01:27.436668+00:00,CONFIRMED,16,1,Low
+C0559,Road Infrastructure,Medium,Public Works Department,Viman Nagar,2026-08-07T19:39:04.672462+00:00,,ESCALATED,13,18,Low
+C0248,Road Infrastructure,Low,Public Works Department,Kothrud,2026-08-08T12:29:35.966096+00:00,,ESCALATED,6,27,Low
+C0524,Waste Management,Low,Municipal Sanitation,Model Colony,2026-08-08T18:06:08.846310+00:00,2026-08-11T10:51:19.565994+00:00,RESOLVED,10,62,Medium
+C0284,Road Infrastructure,Critical,Public Works Department,Viman Nagar,2026-08-09T09:57:48.904965+00:00,,SUBMITTED,7,11,Low
+C0486,Road Infrastructure,Medium,Public Works Department,Hinjewadi,2026-08-09T18:51:35.947350+00:00,2026-08-11T02:39:36.736836+00:00,RESOLVED,2,23,Medium
+C0434,Traffic and Parking,Low,Traffic Department,Wagholi,2026-08-10T13:34:36.281141+00:00,,SUBMITTED,16,27,Low
+C0355,Parks and Public Spaces,Medium,Parks Department,Hinjewadi,2026-08-10T15:06:54.700178+00:00,2026-08-18T21:04:29.387881+00:00,CONFIRMED,14,44,Low
+C0044,Electricity,Low,Electrical Utility,Baner,2026-08-11T00:23:41.764368+00:00,,ACKNOWLEDGED,0,20,Medium
+C0075,Other,High,General Municipal Helpdesk,Hinjewadi,2026-08-11T12:21:16.338808+00:00,,ACKNOWLEDGED,12,57,High
+C0295,Electricity,High,Electrical Utility,Wagholi,2026-08-12T04:21:06.683826+00:00,,ESCALATED,13,54,Low
+C0091,Drainage and Sewage,High,Sewerage/Drainage Department,Viman Nagar,2026-08-12T19:26:56.172074+00:00,2026-08-14T07:34:13.145849+00:00,RESOLVED,11,108,Low
+C0263,Street Lighting,Medium,Electrical Department,Viman Nagar,2026-08-12T21:17:55.000705+00:00,,SUBMITTED,4,106,Medium
+C0123,Water Supply,Medium,Water Department,Kothrud,2026-08-13T01:30:31.474572+00:00,,ESCALATED,20,36,Low
+C0476,Water Supply,Low,Water Department,Hinjewadi,2026-08-13T01:34:19.500157+00:00,,ACKNOWLEDGED,8,34,Low
+C0331,Road Infrastructure,Critical,Public Works Department,Model Colony,2026-08-13T15:22:04.227235+00:00,2026-08-17T20:48:43.127809+00:00,RESOLVED,5,77,Low
+C0453,Electricity,High,Electrical Utility,Viman Nagar,2026-08-14T12:45:00.943739+00:00,2026-08-18T06:48:47.507745+00:00,RESOLVED,0,64,Medium
+C0300,Electricity,Critical,Electrical Utility,Viman Nagar,2026-08-14T16:52:02.167622+00:00,2026-08-17T13:39:49.612421+00:00,RESOLVED,9,14,Low
+C0354,Waste Management,Low,Municipal Sanitation,Hinjewadi,2026-08-14T20:44:25.529838+00:00,,ACKNOWLEDGED,1,56,High
+C0162,Waste Management,Medium,Municipal Sanitation,Model Colony,2026-08-15T18:52:18.355196+00:00,,IN_PROGRESS,1,42,Low
+C0027,Traffic and Parking,Low,Traffic Department,Wagholi,2026-08-16T03:56:47.987310+00:00,2026-08-18T02:39:45.962885+00:00,RESOLVED,3,12,High
+C0082,Drainage and Sewage,Medium,Sewerage/Drainage Department,Baner,2026-08-16T10:18:43.276447+00:00,2026-08-16T15:06:43.276447+00:00,CONFIRMED,12,44,Low
+C0472,Traffic and Parking,High,Traffic Department,Hinjewadi,2026-08-16T17:02:48.254392+00:00,,ESCALATED,9,1,Low
+C0562,Drainage and Sewage,High,Sewerage/Drainage Department,Kothrud,2026-08-17T06:06:10.446281+00:00,2026-08-19T11:26:07.731749+00:00,RESOLVED,12,68,Low
+C0481,Drainage and Sewage,Low,Sewerage/Drainage Department,Wagholi,2026-08-17T15:52:59.682458+00:00,2026-08-27T00:52:07.181734+00:00,CONFIRMED,5,23,Medium
+C0346,Street Lighting,Medium,Electrical Department,Viman Nagar,2026-08-17T17:31:05.303699+00:00,,IN_PROGRESS,9,6,Low
+C0053,Parks and Public Spaces,High,Parks Department,Aundh,2026-08-17T19:13:26.158954+00:00,,IN_PROGRESS,10,40,Low
+C0106,Parks and Public Spaces,Low,Parks Department,Wagholi,2026-08-18T01:38:53.472316+00:00,,SUBMITTED,4,27,Medium
+C0061,Parks and Public Spaces,High,Parks Department,Kothrud,2026-08-18T10:07:33.171482+00:00,,SUBMITTED,0,11,Low
+C0154,Drainage and Sewage,Low,Sewerage/Drainage Department,Aundh,2026-08-18T10:52:15.646625+00:00,,ESCALATED,4,43,Low
+C0467,Waste Management,Critical,Municipal Sanitation,Wagholi,2026-08-18T18:25:27.919457+00:00,,ESCALATED,11,1,Medium
+C0525,Road Infrastructure,Low,Public Works Department,Aundh,2026-08-18T18:27:28.544511+00:00,2026-08-19T19:04:57.733637+00:00,RESOLVED,5,47,High
+C0309,Water Supply,High,Water Department,Kothrud,2026-08-20T00:24:07.838290+00:00,2026-08-23T05:09:37.938024+00:00,RESOLVED,13,72,Low
+C0547,Street Lighting,High,Electrical Department,MG Road,2026-08-20T02:07:13.805807+00:00,,SUBMITTED,0,62,High
+C0250,Other,Medium,General Municipal Helpdesk,Baner,2026-08-20T17:56:27.384432+00:00,,IN_PROGRESS,17,2,Low
+C0500,Drainage and Sewage,Medium,Sewerage/Drainage Department,Kothrud,2026-08-20T20:48:16.964905+00:00,2026-08-27T16:45:18.137952+00:00,RESOLVED,3,1,Medium
+C0330,Water Supply,Low,Water Department,Aundh,2026-08-20T23:58:03.353842+00:00,,SUBMITTED,4,27,Low
+C0163,Other,High,General Municipal Helpdesk,Baner,2026-08-21T01:08:46.003763+00:00,2026-08-28T23:49:25.130071+00:00,RESOLVED,12,10,Medium
+C0505,Water Supply,High,Water Department,Hinjewadi,2026-08-21T04:16:38.699538+00:00,,ESCALATED,15,66,Low
+C0334,Electricity,Low,Electrical Utility,Model Colony,2026-08-21T10:04:44.049167+00:00,,IN_PROGRESS,6,63,Low
+C0098,Drainage and Sewage,High,Sewerage/Drainage Department,Aundh,2026-08-21T13:52:14.885092+00:00,2026-08-29T11:33:32.450218+00:00,RESOLVED,7,37,Low
+C0536,Street Lighting,Low,Electrical Department,MG Road,2026-08-21T23:13:01.971618+00:00,2026-08-25T14:34:48.839488+00:00,RESOLVED,18,1,Medium
+C0372,Street Lighting,Low,Electrical Department,MG Road,2026-08-22T01:50:35.291083+00:00,,SUBMITTED,2,99,Medium
+C0416,Electricity,Medium,Electrical Utility,Model Colony,2026-08-22T03:32:44.345130+00:00,,SUBMITTED,4,1,Medium
+C0151,Electricity,Medium,Electrical Utility,Model Colony,2026-08-22T03:42:56.976275+00:00,2026-08-27T02:48:13.044489+00:00,CONFIRMED,11,41,Low
+C0103,Other,Medium,General Municipal Helpdesk,Viman Nagar,2026-08-22T04:46:17.494828+00:00,2026-08-30T19:18:19.813961+00:00,CONFIRMED,7,22,Medium
+C0572,Other,Critical,General Municipal Helpdesk,Wagholi,2026-08-23T00:45:04.057852+00:00,,IN_PROGRESS,14,1,Medium
+C0370,Drainage and Sewage,High,Sewerage/Drainage Department,Kothrud,2026-08-23T07:04:40.969314+00:00,2026-08-25T13:22:05.127414+00:00,RESOLVED,18,64,Medium
+C0159,Street Lighting,Low,Electrical Department,Aundh,2026-08-24T00:08:01.178109+00:00,2026-08-28T04:41:23.033165+00:00,RESOLVED,11,74,High
+C0223,Drainage and Sewage,High,Sewerage/Drainage Department,Aundh,2026-08-24T20:41:40.943368+00:00,,IN_PROGRESS,0,90,Medium
+C0537,Parks and Public Spaces,Medium,Parks Department,Baner,2026-08-24T22:36:12.981260+00:00,,SUBMITTED,1,49,Low
+C0599,Public Safety,Critical,Public Safety/Police Liaison,Wagholi,2026-08-24T22:59:17.392029+00:00,2026-08-28T21:41:14.986361+00:00,RESOLVED,16,1,Low
+C0069,Other,Medium,General Municipal Helpdesk,MG Road,2026-08-25T01:05:49.688685+00:00,,ESCALATED,0,45,Medium
+C0169,Waste Management,Medium,Municipal Sanitation,Model Colony,2026-08-25T05:28:14.156282+00:00,,IN_PROGRESS,14,47,High
+C0215,Street Lighting,Critical,Electrical Department,Viman Nagar,2026-08-25T07:07:59.063658+00:00,2026-08-25T11:55:59.063658+00:00,RESOLVED,5,78,Low
+C0444,Drainage and Sewage,High,Sewerage/Drainage Department,Aundh,2026-08-25T07:38:15.580261+00:00,2026-08-27T20:46:47.190584+00:00,RESOLVED,4,80,Medium
+C0214,Public Safety,Critical,Public Safety/Police Liaison,Viman Nagar,2026-08-25T08:54:58.798793+00:00,,IN_PROGRESS,4,2,Low
+C0328,Parks and Public Spaces,Critical,Parks Department,Viman Nagar,2026-08-25T10:03:56.497858+00:00,,ESCALATED,0,53,Medium
+C0188,Public Safety,High,Public Safety/Police Liaison,Hinjewadi,2026-08-25T17:21:37.226421+00:00,2026-08-30T19:39:32.310987+00:00,RESOLVED,17,70,Low
+C0426,Electricity,High,Electrical Utility,Wagholi,2026-08-26T01:43:09.343153+00:00,2026-09-01T04:40:24.263922+00:00,RESOLVED,4,43,High
+C0413,Road Infrastructure,Low,Public Works Department,MG Road,2026-08-26T04:57:25.527178+00:00,2026-09-02T19:26:10.171081+00:00,CONFIRMED,14,74,Low
+C0253,Electricity,High,Electrical Utility,Baner,2026-08-26T10:25:04.073904+00:00,,ESCALATED,7,73,Medium
+C0100,Water Supply,High,Water Department,Model Colony,2026-08-28T03:04:42.699414+00:00,,ACKNOWLEDGED,13,13,Low
+C0356,Street Lighting,Critical,Electrical Department,Viman Nagar,2026-08-28T13:27:54.040975+00:00,,SUBMITTED,16,116,Low
+C0471,Public Safety,Critical,Public Safety/Police Liaison,Wagholi,2026-08-29T02:26:24.147933+00:00,2026-08-30T08:29:34.718036+00:00,RESOLVED,11,56,Medium
+C0086,Drainage and Sewage,Low,Sewerage/Drainage Department,Baner,2026-08-29T23:19:58.514054+00:00,,ESCALATED,18,26,Medium
+C0121,Waste Management,Critical,Municipal Sanitation,Wagholi,2026-08-30T09:51:16.423158+00:00,2026-09-01T15:57:47.491819+00:00,CONFIRMED,15,36,Medium
+C0226,Water Supply,Medium,Water Department,Model Colony,2026-08-30T12:39:08.074284+00:00,,IN_PROGRESS,3,4,Low
+C0023,Road Infrastructure,Critical,Public Works Department,MG Road,2026-08-30T19:34:48.943266+00:00,2026-09-03T11:07:33.085677+00:00,CONFIRMED,4,5,High
+C0095,Drainage and Sewage,Medium,Sewerage/Drainage Department,MG Road,2026-08-30T23:03:52.051517+00:00,2026-09-02T18:26:22.918352+00:00,RESOLVED,6,68,Medium
+C0068,Water Supply,Medium,Water Department,MG Road,2026-08-31T01:09:17.824797+00:00,2026-09-04T14:38:13.334150+00:00,RESOLVED,13,33,Low
+C0545,Parks and Public Spaces,Medium,Parks Department,Hinjewadi,2026-08-31T08:37:30.649534+00:00,2026-08-31T13:25:30.649534+00:00,RESOLVED,5,54,Medium
+C0437,Electricity,Low,Electrical Utility,Kothrud,2026-08-31T10:57:30.045500+00:00,2026-09-03T02:59:58.083121+00:00,CONFIRMED,9,1,Medium
+C0304,Street Lighting,High,Electrical Department,Aundh,2026-08-31T16:18:22.428535+00:00,2026-09-03T14:33:04.750122+00:00,CONFIRMED,6,21,Medium
+C0035,Traffic and Parking,Medium,Traffic Department,Hinjewadi,2026-08-31T17:00:21.592616+00:00,,ESCALATED,11,24,High
+C0439,Drainage and Sewage,Medium,Sewerage/Drainage Department,Aundh,2026-08-31T18:27:30.583983+00:00,2026-09-05T07:30:13.530165+00:00,RESOLVED,0,83,Medium
+C0494,Parks and Public Spaces,Low,Parks Department,Baner,2026-08-31T21:55:10.136241+00:00,,SUBMITTED,5,43,Low
+C0165,Drainage and Sewage,Medium,Sewerage/Drainage Department,Hinjewadi,2026-09-01T00:38:55.675453+00:00,,ACKNOWLEDGED,13,93,Low
+C0474,Road Infrastructure,Low,Public Works Department,Wagholi,2026-09-01T08:29:40.564757+00:00,2026-09-03T01:50:10.095038+00:00,CONFIRMED,2,95,Low
+C0014,Road Infrastructure,Low,Public Works Department,Viman Nagar,2026-09-01T11:28:22.896598+00:00,,IN_PROGRESS,2,38,Low
+C0166,Water Supply,Medium,Water Department,Hinjewadi,2026-09-01T11:48:37.277548+00:00,,ACKNOWLEDGED,12,65,Low
+C0408,Waste Management,Medium,Municipal Sanitation,Wagholi,2026-09-01T17:06:38.798463+00:00,2026-09-04T17:25:25.142050+00:00,RESOLVED,12,1,Medium
+C0526,Road Infrastructure,Critical,Public Works Department,Kothrud,2026-09-01T19:27:23.461038+00:00,2026-09-04T07:35:34.243375+00:00,RESOLVED,15,73,Low
+C0007,Drainage and Sewage,Medium,Sewerage/Drainage Department,Model Colony,2026-09-02T11:03:28.480846+00:00,2026-09-07T18:35:30.636737+00:00,RESOLVED,0,71,Low
+C0137,Street Lighting,Critical,Electrical Department,Hinjewadi,2026-09-02T12:09:36.673965+00:00,,ACKNOWLEDGED,7,1,Medium
+C0189,Street Lighting,Medium,Electrical Department,Baner,2026-09-02T17:54:48.044945+00:00,,IN_PROGRESS,0,1,High
+C0077,Electricity,High,Electrical Utility,Model Colony,2026-09-04T01:51:34.499876+00:00,2026-09-07T07:37:11.290343+00:00,RESOLVED,6,1,Low
+C0124,Public Safety,Critical,Public Safety/Police Liaison,Hinjewadi,2026-09-04T01:59:13.585487+00:00,,IN_PROGRESS,0,32,Medium
+C0170,Public Safety,Critical,Public Safety/Police Liaison,Kothrud,2026-09-04T03:22:48.454227+00:00,2026-09-10T17:46:32.402485+00:00,RESOLVED,4,21,Medium
+C0156,Waste Management,High,Municipal Sanitation,Viman Nagar,2026-09-04T05:24:04.133688+00:00,2026-09-04T11:11:26.093743+00:00,CONFIRMED,7,75,Low
+C0147,Parks and Public Spaces,Low,Parks Department,Model Colony,2026-09-04T06:41:24.561588+00:00,,IN_PROGRESS,2,40,Low
+C0290,Waste Management,Low,Municipal Sanitation,Baner,2026-09-04T07:56:13.086986+00:00,,ACKNOWLEDGED,6,32,Low
+C0050,Traffic and Parking,High,Traffic Department,Viman Nagar,2026-09-04T10:58:50.892634+00:00,2026-09-05T19:38:52.685331+00:00,RESOLVED,7,31,Medium
+C0381,Other,Medium,General Municipal Helpdesk,Baner,2026-09-04T16:48:20.277559+00:00,2026-09-05T00:44:33.247357+00:00,CONFIRMED,3,34,Medium
+C0527,Other,Low,General Municipal Helpdesk,Hinjewadi,2026-09-04T21:46:13.887884+00:00,,ACKNOWLEDGED,8,35,Low
+C0209,Water Supply,Low,Water Department,Wagholi,2026-09-05T12:27:18.357374+00:00,,IN_PROGRESS,4,47,Low
+C0542,Public Safety,High,Public Safety/Police Liaison,MG Road,2026-09-06T01:41:30.320597+00:00,,SUBMITTED,8,52,Low
+C0089,Other,Low,General Municipal Helpdesk,Aundh,2026-09-06T01:52:38.152967+00:00,,ACKNOWLEDGED,0,40,Low
+C0498,Other,Low,General Municipal Helpdesk,Wagholi,2026-09-06T04:22:11.082266+00:00,,SUBMITTED,5,89,Low
+C0241,Road Infrastructure,Critical,Public Works Department,Baner,2026-09-06T05:49:28.700586+00:00,,ACKNOWLEDGED,14,47,High
+C0111,Waste Management,Medium,Municipal Sanitation,MG Road,2026-09-06T06:05:34.723388+00:00,,ACKNOWLEDGED,10,118,Medium
+C0358,Street Lighting,High,Electrical Department,Model Colony,2026-09-06T11:51:10.747640+00:00,,SUBMITTED,0,1,Low
+C0392,Other,Medium,General Municipal Helpdesk,Hinjewadi,2026-09-06T17:59:04.323298+00:00,,IN_PROGRESS,6,33,Low
+C0161,Waste Management,Low,Municipal Sanitation,Kothrud,2026-09-06T20:11:41.625536+00:00,2026-09-11T15:40:27.301411+00:00,RESOLVED,2,81,High
+C0239,Electricity,Medium,Electrical Utility,Aundh,2026-09-07T12:31:37.655835+00:00,2026-09-08T19:24:01.940593+00:00,CONFIRMED,13,33,Low
+C0556,Waste Management,High,Municipal Sanitation,Model Colony,2026-09-08T00:10:39.463857+00:00,,ESCALATED,5,95,Medium
+C0134,Parks and Public Spaces,High,Parks Department,Kothrud,2026-09-08T11:11:25.539647+00:00,,ACKNOWLEDGED,22,5,Medium
+C0067,Road Infrastructure,Low,Public Works Department,Kothrud,2026-09-08T11:54:34.169024+00:00,,SUBMITTED,13,57,Low
+C0553,Other,Medium,General Municipal Helpdesk,Kothrud,2026-09-09T12:44:13.178665+00:00,,ESCALATED,11,28,Low
+C0514,Street Lighting,Low,Electrical Department,Hinjewadi,2026-09-09T13:22:08.081335+00:00,,SUBMITTED,20,44,Medium
+C0216,Parks and Public Spaces,Low,Parks Department,Baner,2026-09-09T23:02:01.036886+00:00,,ESCALATED,16,1,Low
+C0317,Water Supply,Medium,Water Department,Hinjewadi,2026-09-10T04:11:03.319978+00:00,,IN_PROGRESS,16,47,Low
+C0424,Water Supply,High,Water Department,Aundh,2026-09-10T16:45:48.351243+00:00,2026-09-15T14:35:00.804148+00:00,RESOLVED,8,59,Medium
+C0234,Road Infrastructure,High,Public Works Department,Aundh,2026-09-11T06:37:53.581395+00:00,,SUBMITTED,15,46,Medium
+C0148,Public Safety,Critical,Public Safety/Police Liaison,Hinjewadi,2026-09-11T08:57:00.771327+00:00,,IN_PROGRESS,12,1,Medium
+C0274,Street Lighting,Medium,Electrical Department,Viman Nagar,2026-09-11T09:49:26.984707+00:00,,ESCALATED,14,10,Medium
+C0019,Waste Management,Low,Municipal Sanitation,Wagholi,2026-09-11T18:44:38.064640+00:00,2026-09-15T14:35:00.804148+00:00,RESOLVED,10,28,High
+C0010,Water Supply,Critical,Water Department,Baner,2026-09-12T01:46:44.012021+00:00,,SUBMITTED,11,39,Low
+C0029,Water Supply,Medium,Water Department,Baner,2026-09-12T04:00:39.645796+00:00,2026-09-15T05:52:27.972948+00:00,CONFIRMED,8,51,Low
+C0369,Electricity,High,Electrical Utility,MG Road,2026-09-12T04:27:21.650519+00:00,2026-09-12T09:15:21.650519+00:00,CONFIRMED,9,21,Medium
+C0199,Public Safety,Medium,Public Safety/Police Liaison,Kothrud,2026-09-12T18:19:33.263592+00:00,,SUBMITTED,8,21,High
+C0052,Waste Management,Medium,Municipal Sanitation,Baner,2026-09-12T19:58:45.352651+00:00,2026-09-14T12:56:55.707968+00:00,RESOLVED,16,32,Medium
+C0497,Electricity,Low,Electrical Utility,Hinjewadi,2026-09-12T23:39:10.754248+00:00,2026-09-15T07:19:11.021320+00:00,RESOLVED,7,12,Medium
+C0031,Traffic and Parking,Low,Traffic Department,Kothrud,2026-09-13T16:04:17.579013+00:00,2026-09-15T14:35:00.804148+00:00,RESOLVED,5,1,Medium
+C0011,Other,High,General Municipal Helpdesk,Hinjewadi,2026-09-13T21:13:06.693123+00:00,,SUBMITTED,14,56,Low
+C0491,Street Lighting,Medium,Electrical Department,Baner,2026-09-14T02:53:57.344741+00:00,2026-09-15T14:35:00.804148+00:00,CONFIRMED,5,57,High
+C0261,Street Lighting,Medium,Electrical Department,Wagholi,2026-09-15T03:45:19.387778+00:00,,ESCALATED,7,26,High
+C0531,Other,Low,General Municipal Helpdesk,MG Road,2026-09-15T05:40:23.491277+00:00,2026-09-15T14:35:00.804148+00:00,RESOLVED,13,43,Low
+C0318,Road Infrastructure,Medium,Public Works Department,Kothrud,2026-09-15T09:51:18.930206+00:00,,ESCALATED,15,77,Low
+C0152,Electricity,Low,Electrical Utility,Baner,2026-09-15T10:34:06.894687+00:00,,SUBMITTED,16,7,Medium

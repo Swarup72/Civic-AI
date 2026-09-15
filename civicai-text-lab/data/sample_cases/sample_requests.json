@@ -1,0 +1,47 @@
+{
+  "_note": "Example requests for manually exercising POST /api/analyze — not test fixtures (see tests/ for those). Each entry shows the expected PATH (ml vs rule_fallback), not a guaranteed exact output, since retraining the model will change exact confidence values.",
+  "cases": [
+    {
+      "description": "In-template phrasing — expected to clear the ML confidence threshold.",
+      "request": {
+        "text": "There is a large pothole near the college gate that has damaged several vehicles. This urgently needs to be fixed as soon as possible."
+      },
+      "expectedSource": "ml"
+    },
+    {
+      "description": "Generic, low-signal text — expected to fall to the rule fallback (low confidence).",
+      "request": { "text": "please help" },
+      "expectedSource": "rule_fallback"
+    },
+    {
+      "description": "Strong keyword match, off-template phrasing — demonstrates the rule fallback's own category detection independent of the ML model.",
+      "request": {
+        "text": "There was an assault reported near the station, very unsafe for women at night."
+      },
+      "expectedSource": "rule_fallback",
+      "expectedCategory": "Public Safety",
+      "expectedSeverity": "Critical"
+    },
+    {
+      "description": "Empty/whitespace-only text — the explicit 'nothing to classify' case.",
+      "request": { "text": "   " },
+      "expectedSource": "rule_fallback",
+      "expectedCategory": "Other"
+    },
+    {
+      "description": "Sensitive-location severity elevation (Medium -> High near a school).",
+      "request": { "text": "The street light near the school has been off for a week." },
+      "expectedCategory": "Street Lighting",
+      "expectedSeverityAtLeast": "High"
+    }
+  ],
+  "batchExample": {
+    "request": {
+      "texts": [
+        "Garbage has been piling up near the market for a week.",
+        "please help",
+        "Street light near the school has been off for two weeks."
+      ]
+    }
+  }
+}

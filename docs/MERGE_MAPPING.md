@@ -1,0 +1,93 @@
+# CivicAI Merge Mapping
+
+Feature-level decision table. Every overlapping (or FRIEND-only) feature gets exactly one decision from the closed set: **KEEP_YOURS**, **PORT_FRIENDS_FEATURE**, **COMBINE**, **REBUILD**, **DISCARD**. No ambiguous entries.
+
+Definitions used consistently below:
+- **KEEP_YOURS** — YOUR_PROJECT's implementation is retained unchanged; FRIEND's equivalent is not used.
+- **PORT_FRIENDS_FEATURE** — FRIEND has a capability YOUR_PROJECT lacks entirely; bring the *product behavior* in as new code against YOUR_PROJECT's stack (never copy FRIEND's files verbatim, since its stack is incompatible — see `MERGE_CONFLICTS.md`).
+- **COMBINE** — both sides have a real, non-overlapping contribution; the final feature merges both.
+- **REBUILD** — the feature is genuinely wanted, but neither side's implementation transfers directly (usually because FRIEND's version depends on Supabase-only mechanics); it's built fresh against YOUR_PROJECT's architecture, using FRIEND's UI/UX only as a reference mockup.
+- **DISCARD** — FRIEND's version conflicts with a protected capability or the architecture mandate; not used in any form.
+
+---
+
+## Platform / architecture layer
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| Backend framework | FastAPI (Python) | Express (Node) | **KEEP_YOURS** | FastAPI remains the sole backend. Express server is not adopted; its 2 endpoints' *logic* is re-expressed as FastAPI service functions (see AI and SLA rows below). |
+| Frontend framework | React 18 + Vite 5 + react-router-dom 6 | React 19 + Vite 8 + react-router-dom 7 | **KEEP_YOURS** | Stay on YOUR_PROJECT's current React/Vite/router major versions; do not bump to match FRIEND (avoids an unforced, unrelated dependency-upgrade risk during a feature merge). Revisit the version bump later as its own tracked upgrade, not bundled into this merge. |
+| CSS/design system | Tailwind CSS + glassmorphism utility classes | Plain CSS custom properties + inline styles | **KEEP_YOURS** | Every ported FRIEND page is rebuilt in Tailwind from scratch; no FRIEND CSS file is imported. |
+| Primary database | MongoDB (Motor) + in-memory fallback | Supabase (Postgres) | **KEEP_YOURS** | Supabase is not used anywhere in the final app, per the architecture mandate. In-memory fallback stays fully functional for every new collection added. |
+| Authentication system | Custom HMAC-signed token + bcrypt, role server-resolved | Supabase Auth (hosted JWT) + `profiles.role` lookup | **KEEP_YOURS** | Single auth system = YOUR_PROJECT's. FRIEND's auth code is not used in any form (see DISCARD row below for the specific mechanism). |
+| Supabase Auth mechanism itself | — | Hosted JWT/session, email confirmation flow | **DISCARD** | Explicitly forbidden by the architecture mandate ("MUST NOT have two competing authentication systems"). Not ported even partially. |
+| Media/file storage | Local filesystem, public/private split, EXIF-aware | Supabase Storage, public-only | **KEEP_YOURS** (protected capability) | FRIEND's storage mechanism is not used. Its *UX pattern* ("pick a file inline in the resolution form, upload as part of submitting proof") is portable — see Media/evidence row below. |
+
+## Roles & routing
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| Role enum values | `citizen \| authority \| ngo \| admin` | `citizen \| government \| ngo \| admin` | **KEEP_YOURS** | Keep `authority` as the wire/DB value (144 existing tests, every route's `require_role("authority")`, `docs/RBAC_MATRIX.md`, and `backend/seed.py` all depend on this exact string). Where a friendlier product-facing label is wanted, display "Government Authority" / "Municipal Authority" as **UI copy only** (a label lookup in the frontend, e.g. alongside `ROLE_LABELS` in `MERGE_ARCHITECTURE.md`'s frontend section), never as a new backend value. |
+| Admin role backend support | Enum value only; no admin user, no admin routes, no admin login path (documented blocker) | Full: role management, department/org CRUD, KPI aggregation, all gated by Supabase RLS (opaque) | **PORT_FRIENDS_FEATURE** | Build real FastAPI admin capability (new `app/routes/admin.py`, gated `require_role("admin")`), seed one demo admin user in `backend/seed.py`. FRIEND's Supabase RLS logic is not portable (not in repo), so every admin endpoint is written fresh against MongoDB collections. See Admin Dashboard row below for the UI side. |
+| Protected client-side routing | None — every route is publicly reachable by URL; RBAC is server-only (deliberate, documented) | `ProtectedRoute` component gating each dashboard route by `allowedRoles`, redirect-to-login-then-back pattern | **PORT_FRIENDS_FEATURE** | Add a `ProtectedRoute`-equivalent to YOUR_PROJECT's frontend, wired to the existing `AuthContext`/`role`. This is UX polish, not a new security boundary — backend RBAC remains the actual enforcement, unchanged. |
+| Role-aware post-login redirect | Login always navigates to `/` | `ROLE_HOME_PATH` lookup table + `location.state.from` redirect-back | **PORT_FRIENDS_FEATURE** | Add a small `ROLE_HOME_PATH`-style constant to the frontend and use it in `Login.jsx`/`Register.jsx` after a successful call. |
+
+## Complaint lifecycle & status model
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| Status vocabulary / state machine | 11 states (`SUBMITTED…REJECTED`), enforced transitions (`authority.py::VALID_TRANSITIONS`), guards (evidence-before-resolve, resolve-before-confirm) | 8 ad hoc lowercase strings inferred from client code (`submitted, ai_analyzed, acknowledged, in_progress, escalated, proof_submitted, resolved, ai_verified`), no visible transition-guard code (guards, if any, live in the un-auditable Supabase RPC) | **KEEP_YOURS** (protected capability) | No new status values are added. See `MERGE_CONFLICTS.md` for the explicit state-name mapping table used to translate FRIEND's product intent onto YOUR_PROJECT's existing states. |
+| "Proof submitted, awaiting citizen confirmation" moment | Represented as `status == RESOLVED` + `completionEvidenceUrl` present; citizen acts via `POST /complaints/{id}/confirm` | Represented as its own status, `proof_submitted` | **KEEP_YOURS** | No new status is introduced; the *dashboard* (see below) is what's missing, not the state. |
+| Complaint creation | Full flow: AI analysis → priority scoring → SLA deadlines → GeoJSON/area resolution → `pendingPhoto` gate → timeline/audit events | Direct Supabase insert with `status: 'submitted'`, then a **separate**, decoupled, fire-and-forget HTTP call to trigger AI analysis after the fact | **KEEP_YOURS** (protected capability) | Keep the synchronous analyze-before-save flow; it is strictly more complete (priority score, SLA deadlines, and area resolution all depend on the AI result being available immediately, which FRIEND's decoupled trigger doesn't guarantee). |
+| Complaint feed / community support | `GET /api/complaints`, `GET /api/community/feed`, support/unsupport with unique-index-backed one-vote-per-user | Direct `supabase.from('complaints').select()` + a `complaint_supports` join table, optimistic client-side toggle | **KEEP_YOURS** (protected capability) | FRIEND's optimistic-UI toggle-before-server-confirms pattern is a minor, purely presentational nicety; note it as an optional polish item in `MERGE_PLAN.md`, not a required change. |
+| Escalation | Manual, any authenticated role may call `POST /complaints/{id}/escalate` (deliberate product decision, documented in `docs/RBAC_MATRIX.md`) | Automatic only, via the 60-second SLA-sweep worker; no manual escalate button visible in FRIEND's UI | **COMBINE** | Keep YOUR_PROJECT's manual escalation exactly as-is (already correct and tested) and *add* a proactive background sweep (new capability) — see SLA row below. |
+| SLA evaluation | Reactive/lazy: recomputed on every read (`evaluate_sla_status`, called from `list_complaints`/`get_complaint_details`); auto-transitions to `OVERDUE` only | Proactive: a `setInterval` background worker every 60s that finds ack-SLA-breached complaints and **auto-transitions them straight to `ESCALATED`**, notifying via a `complaint_updates` row | **COMBINE** | Keep the existing lazy `evaluate_sla_status` (→`OVERDUE`) untouched. Add a new, additive FastAPI background task (started in `main.py`'s `lifespan`, not a Node `setInterval`) that periodically finds `OVERDUE` complaints whose ack deadline has been breached past some grace threshold and auto-transitions them to `ESCALATED` via the existing `escalate_complaint` logic (refactored slightly so it's callable both from the route and from the sweep), reusing `notification_service.notify_role("ngo", ...)` — already exactly the right primitive. |
+
+## AI / classification
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| Text classification cascade | 3-tier design (hosted LLM → trained ML → rule-based fallback); tier 1 is a stub that never actually calls out | Single tier: a real, working Gemini call with structured JSON output | **COMBINE** | Wire FRIEND's *approach* (schema-constrained hosted LLM call) into YOUR_PROJECT's already-designed-but-empty tier 1 in `ai_service.analyze_complaint()`, gated by the existing `settings.AI_API_KEY`/`AI_PROVIDER` check that's already there and already unused. Falls through to the existing trained-ML tier, then rule-based fallback, exactly as today when the LLM call fails or isn't configured — no change to that fallback chain's contract. |
+| AI output shape | `category`, `severity` (enum), `department`, `affectedUsersEstimate`, `locationSensitivity`, `reason`, ack/resolution SLA windows, `confidence`, `analyzedBy`, `source`, `needsReview` | `category`, **`subcategory`**, `severity_score` (0-100), `priority`, `recommended_department_id`, `estimated_resolution_days`, **`ai_summary`**, `reasoning` | **COMBINE** | Add two new *optional* fields to `AIAnalysisResult`/the stored `aiAnalysis` dict: `subcategory: Optional[str]` and `aiSummary: Optional[str]` — additive, non-breaking for every existing caller that only reads today's fields. Populate them only from the new LLM tier (tiers 2/3 leave them `None`, which is honest, not fabricated). |
+| AI summary visibility | `aiAnalysis.reason` is stored but not surfaced as a distinct, chat-log-style entry | `ai_summary` is inserted straight into `complaint_updates` as a visible history row | **PORT_FRIENDS_FEATURE** | When the new LLM tier produces an `aiSummary`, call `timeline_service.record_event(..., "ai_analysis_completed", ..., public_message=ai_summary)` — the timeline already supports exactly this event type; just pass richer text into an existing call site (`complaints.py::create_complaint` already emits this event, currently with a generic message). |
+| Vision/image-content AI | Honest scaffold, `available: false` (no model, no API), classical-CV scene-match is real | None at all | **KEEP_YOURS** (protected capability) | No change. FRIEND has nothing to contribute here. |
+
+## Media & evidence
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| Storage mechanism | Local disk, public/private split, EXIF strip | Supabase Storage bucket, public-only, no EXIF handling | **KEEP_YOURS** (protected capability) | Not touched. |
+| Resolution-proof upload UX | Separate `ImageUploader` component + `/evidence` and media-upload endpoints, invoked from a modal in `AuthorityDashboard.jsx` | Proof file input embedded directly inside the same `<form>` as the resolution note textarea, submitted together in one action | **PORT_FRIENDS_FEATURE** (UX only) | When rebuilding the Government/NGO dashboards (see below), keep the "note + file in one form, one submit" interaction pattern — it's a minor but real usability improvement over two separate steps. Backend calls remain the existing `mediaAPI.upload(..., 'evidence')` + `authorityAPI.updateStatus(...)`, just sequenced together client-side. |
+| Evidence verification | Real, working scene-match (ORB+RANSAC) + honest vision-unavailable scaffold | None | **KEEP_YOURS** (protected capability) | No change. |
+
+## Geo / areas
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| Geolocation, nearby search, GeoJSON areas (circle + polygon) | Full dual-mode implementation (`geo_service.py`), tested | None visible (FRIEND stores a free-text `address` only, no lat/lng/geo field referenced anywhere in the client code) | **KEEP_YOURS** (protected capability) | No change; nothing to merge here. |
+
+## Notifications, timeline, audit
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| In-app notifications | Per-user rows + role-broadcast fan-out (`notification_service.py`), read/unread, bell UI (`NotificationBell.jsx`) | None (FRIEND's `complaint_updates` rows serve as an implicit shared history, not a per-user notification inbox) | **KEEP_YOURS** (protected capability) | No change; the new admin/dashboard actions below reuse this existing service rather than inventing a parallel one. |
+| Typed timeline / audit log | `timeline_service.py` (role-aware public/internal split) + `audit_service.py` (security audit, forbidden-key sanitized) | `complaint_updates` table only — a single flat, fully-visible history, no internal/public split, no dedicated security audit trail | **KEEP_YOURS** (protected capability) | No change. |
+| Rate limiting | Real sliding-window limiter on login + uploads | None visible | **KEEP_YOURS** (protected capability) | No change. New admin write-endpoints (department/org creation, role changes) get the same `rate_limit_service.check(...)` treatment as existing sensitive writes, as a small additive hardening step during REBUILD, not a port from FRIEND (which has nothing to port here). |
+
+## Dashboards (the actual product ask)
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| Citizen Dashboard ("my complaints") | Does not exist as a distinct screen; underlying actions (confirm/reopen) already exist on the per-complaint detail page | `CitizenDashboard.jsx`: own-complaints list + inline confirm/reject actions when `proof_submitted` | **REBUILD** | New Tailwind page (`pages/CitizenDashboard.jsx`), calling the existing `GET /api/complaints` with a **new, additive** `reportedBy` query param (small backend change: one optional filter in `complaints.py::list_complaints`, matching the existing pattern for `category`/`status`/etc.) instead of a client-side filter over the full public feed. Confirm/reject buttons reuse the existing `complaintsAPI.confirm()` call already used by `ComplaintDetails.jsx`. |
+| Government/Authority Dashboard | `AuthorityDashboard.jsx`: full-featured, list+detail split, status modal, evidence upload, escalate | `GovernmentDashboard.jsx`: same list+detail split idea, "claim" action, inline resolution form | **COMBINE** | Keep YOUR_PROJECT's `AuthorityDashboard.jsx` as the base (it's more complete: filters, SLA tab, department filter, full state-machine-aware status modal). Adopt FRIEND's "acknowledge = claim, one click" affordance and its combined note+file resolution form as UX refinements layered onto the existing component — not a rewrite. |
+| NGO Dashboard | Does not exist (NGO demo role reuses the authority screen verbatim) | `NGODashboard.jsx`: scoped to escalated/in-progress cases, "Accept Case" action, claimed-by-NGO lock indicator | **REBUILD** | New Tailwind page (`pages/NGODashboard.jsx`), reusing `authorityAPI`-style calls but scoped by status filter (`escalated`, `in_progress`) and gated to the `ngo` role. "Accept Case" maps to the existing `authorityAPI.updateStatus` (or a small, additive NGO-specific status-transition allowance in `authority.py::VALID_TRANSITIONS`/`require_role`, if NGOs are meant to transition complaints directly rather than only via escalation — a product decision to confirm before Phase 3 of `MERGE_PLAN.md`). |
+| Admin Dashboard | Does not exist; `ImpactDashboard.jsx` is public analytics, not an admin control panel | `AdminDashboard.jsx`: KPI tiles, department performance table, per-user role dropdown, add-department form, add-NGO-organization form | **REBUILD** | New Tailwind page (`pages/AdminDashboard.jsx`) + new backend: `app/routes/admin.py` (role-management, department CRUD, organization/NGO CRUD — all `require_role("admin")`), new Mongo collections `departments` and `organizations` with Pydantic schemas, reusing `dashboard.py`'s existing stats/category-summary/monthly-trends endpoints for the KPI tiles rather than re-implementing that aggregation. |
+| Analytics (public transparency) | `ImpactDashboard.jsx` + `dashboard.py` (stats, department-performance, category-summary, monthly-trends) | Folded into `AdminDashboard.jsx` (gov-solved vs. ngo-solved split, department resolution-rate table) | **COMBINE** | Keep `ImpactDashboard.jsx` as the *public* page, unchanged. Add the gov-vs-ngo resolution-source breakdown (currently absent from `dashboard.py::get_dashboard_stats`) as a small additive field, computed from `timeline_events`/`status_history` actor role at the moment of `RESOLVED`, and surface it in both the public dashboard and the new admin dashboard. |
+| Profile functionality | Not present as a distinct page (name/email shown in navbar only) | Not actually implemented in FRIEND either beyond a `profiles` table read (no profile-edit UI found in FRIEND's pages) | **REBUILD** | Not blocked on FRIEND (it doesn't have this either). Track as a small, independent addition in `MERGE_PLAN.md` if wanted — out of scope for "porting FRIEND's features" specifically. |
+
+## Testing & documentation
+
+| Feature | YOUR_PROJECT | FRIEND_PROJECT | Final Decision | Implementation Strategy |
+|---|---|---|---|---|
+| Backend test suite | 144 pytest tests | 0 tests | **KEEP_YOURS** | Every new endpoint from the REBUILD/COMBINE rows above ships with new pytest tests in the same style (`tests/test_admin.py`, `tests/test_ngo_dashboard.py`, etc.), matching the existing coverage bar — not adopting FRIEND's (nonexistent) testing practice. |
+| Documentation practice | 17 living docs, dated, self-superseding | 1 spec file | **KEEP_YOURS** | New docs for new features follow the existing house style (see `docs/RBAC_MATRIX.md`/`docs/api-overview.md` as the template) rather than FRIEND's single-file approach. |

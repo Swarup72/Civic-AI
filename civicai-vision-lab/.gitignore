@@ -1,0 +1,21 @@
+# Secrets / local environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Generated outputs (not source)
+data/outputs/*
+!data/outputs/.gitkeep
+
+# Model weights (never committed — see README; this prototype ships none)
+models/pretrained/*
+!models/pretrained/.gitkeep
+
+# OS / editor cruft
+.DS_Store

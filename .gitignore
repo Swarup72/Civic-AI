@@ -1,1 +1,2 @@
-FRIEND_PROJECT/server/.env
+FRIEND_PROJECT/server/.env.local
+YOUR_PROJECT/server/.env

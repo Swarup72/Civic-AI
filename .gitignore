@@ -1,2 +1,8 @@
 FRIEND_PROJECT/server/.env.local
 YOUR_PROJECT/server/.env
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
